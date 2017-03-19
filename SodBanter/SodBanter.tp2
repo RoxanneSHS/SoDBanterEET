@@ -1,0 +1,135 @@
+BACKUP ~SoDBanter/backup~
+AUTHOR ~Roxanne - Contact Roxanne@shsforums.net~
+
+VERSION ~v0.2b~
+
+BEGIN ~SoD Banter Restoration~
+
+COPY_EXISTING ~BDBanter.2da~ ~override~
+REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~SAFANA       BDSAFANB~ ~SAFANA       BSAFAN    ~ BUT_ONLY
+
+COPY_EXISTING ~BDBanter.2da~ ~override~
+REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~EDWIN        BDEDWINB~ ~EDWIN        Bedwin_    ~ BUT_ONLY
+
+COPY_EXISTING ~BDBanter.2da~ ~override~
+REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH~VICONIA      BDVICONB~ ~VICONIA      BVicon    ~ BUT_ONLY
+
+COPY_EXISTING ~BDBanter.2da~ ~override~
+REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~DYNAHEIR     BDDYNAHB~ ~DYNAHEIR     BDYNAH    ~ BUT_ONLY
+
+COPY_EXISTING ~BDBanter.2da~ ~override~
+REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH~MINSC        BDMINSCB~ ~Minsc        BMINSC_    ~ BUT_ONLY
+
+COPY_EXISTING ~BDBanter.2da~ ~override~
+REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH~JAHEIRA      BDJAHEIB~ ~Jaheira      BJahei    ~ BUT_ONLY
+
+COPY_EXISTING ~BDBanter.2da~ ~override~
+REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH~KHALID       BDKHALIB~ ~KHALID       BKhali    ~ BUT_ONLY
+
+COPY_EXISTING ~BDBanter.2da~ ~override~
+REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH~DORN         BDDORNB~ ~DORN         BDORN~ BUT_ONLY
+
+COPY_EXISTING ~BDBanter.2da~ ~override~
+REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH~NEERA        BDNEERAB~ ~NEERA        BNEERA_~ BUT_ONLY
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~BDCORWIB.dlg~ THEN BEGIN
+COMPILE ~SoDBanter/BDCORWIB.d~
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~BDRASAAB.dlg~ THEN BEGIN
+COMPILE ~SoDBanter/BDRASAAB.d~
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~BDMKHIIB.dlg~ THEN BEGIN
+COMPILE ~SoDBanter/BDMKHIIB.d~
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~BDVOGHIB.dlg~ THEN BEGIN
+COMPILE ~SoDBanter/BDVOGHIB.d~
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~BDGLINTB.dlg~ THEN BEGIN
+COMPILE ~SoDBanter/BDGLINTB.d~
+END
+
+COMPILE ~SoDBanter/BDBanters.d~
+
+EXTEND_TOP
+~bd1000.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd1100.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd1200.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd2000.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd2100.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd3000.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd4000.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd4100.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd4200.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd4300.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd4400.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd4500.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd4600.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd4700.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd5000.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd5100.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd5200.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd5300.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd6000.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd6100.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd6200.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd7000.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd7100.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd7200.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd7300.bcs~ ~SoDBanter/Showbanter.baf~
+EXTEND_TOP
+~bd7400.bcs~ ~SoDBanter/Showbanter.baf~
+
+EXTEND_BOTTOM
+~BDNeera.bcs~ ~SoDBanter/SodNeera.baf~
+EXTEND_BOTTOM
+~BDMinsc.bcs~ ~SoDBanter/SodMinsc.baf~
+EXTEND_BOTTOM
+~BDdynahe.bcs~ ~SoDBanter/SodDyna.baf~
+EXTEND_BOTTOM
+~BDRasaad.bcs~ ~SoDBanter/SodRasa.baf~
+EXTEND_BOTTOM
+~BDSafana.bcs~ ~SoDBanter/SodSafana.baf~
+EXTEND_BOTTOM
+~BDCorwin.bcs~ ~SoDBanter/SodCorwin.baf~
+EXTEND_BOTTOM
+~BDEdwin.bcs~ ~SoDBanter/SodEdwin.baf~
+EXTEND_BOTTOM
+~BDJaheir.bcs~ ~SoDBanter/SodJahei.baf~
+EXTEND_BOTTOM
+~BDKhalid.bcs~ ~SoDBanter/SodKhalid.baf~
+EXTEND_BOTTOM
+~BDViconi.bcs~ ~SoDBanter/SodViconi.baf~
+EXTEND_BOTTOM
+~BDMKHIIN.bcs~ ~SoDBanter/SodMKHIIN.baf~
+EXTEND_BOTTOM
+~BDGlint.bcs~ ~SoDBanter/SodGlint.baf~
+EXTEND_BOTTOM
+~BDVOGHIL.bcs~ ~SoDBanter/SodVOGHILN.baf~

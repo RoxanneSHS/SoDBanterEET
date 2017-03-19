@@ -1,0 +1,9 @@
+IF
+InMyArea(Player1)
+Global("Showbanter","MYAREA",0)
+THEN
+RESPONSE #0
+SetGlobal("Showbanter","MYAREA",1)
+SetGlobalTimer("BD_BANTER_DELAY","MYAREA",5555555)
+Continue()
+END

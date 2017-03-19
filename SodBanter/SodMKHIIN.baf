@@ -1,0 +1,62 @@
+IF
+Global("EndofBG1","Global",1)
+InParty(Myself)
+Global("Sodbanters","Locals",0)
+THEN
+RESPONSE #100
+SetGlobal("Sodbanters","Locals",1)
+SetGlobalTimer("SodbantersT","Locals",600)
+END
+
+IF
+GlobalTimerExpired("SodbantersT","Locals")
+!Global("bd_pbdd021","LOCALS",-1)
+IsValidForPartyDialogue("Minsc")
+IsValidForPartyDialogue("MKHIIN")
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobalTimer("SodbantersT","Locals",2600)
+Interact("MKHIIN")
+END
+
+IF
+GlobalTimerExpired("SodbantersT","Locals")
+!Global("bd_pbdd087","LOCALS",-1)
+IsValidForPartyDialogue("Jaheira")
+IsValidForPartyDialogue("MKHiin")
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobalTimer("SodbantersT","Locals",2600)
+Interact("MKHIIN")
+END
+
+IF
+GlobalTimerExpired("SodbantersT","Locals")
+!Global("bd_pbdd110","LOCALS",-1)
+IsValidForPartyDialogue("MKHiin")
+IsValidForPartyDialogue("CVSandr")
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobalTimer("SodbantersT","Locals",2600)
+Interact("MKHIIN")
+END
+
+IF
+GlobalTimerExpired("SodbantersT","Locals")
+!Global("bd_pbdd008","LOCALS",-1)
+InParty("Corwin") 
+InParty("MKHIIN") 
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobalTimer("SodbantersT","Locals",2600)
+Interact("MKHIIN")
+END
+

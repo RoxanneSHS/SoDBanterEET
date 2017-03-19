@@ -1,0 +1,74 @@
+IF
+Global("EndofBG1","Global",1)
+InParty(Myself)
+Global("Sodbanters","Locals",0)
+THEN
+RESPONSE #100
+SetGlobal("Sodbanters","Locals",1)
+SetGlobalTimer("SodbantersT","Locals",600)
+END
+
+IF
+GlobalTimerExpired("SodbantersT","Locals")
+!Global("bd_pbdd013","LOCALS",-1)
+InParty("Neera")
+InParty("Corwin")
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobalTimer("SodbantersT","Locals",2600)
+Interact("Neera")
+END
+
+IF
+GlobalTimerExpired("SodbantersT","Locals")
+!Global("bd_pbdd069","LOCALS",-1)
+IsValidForPartyDialogue("Neera")
+IsValidForPartyDialogue("Viconia")
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobalTimer("SodbantersT","Locals",2600)
+Interact("Neera")
+END
+
+IF
+GlobalTimerExpired("SodbantersT","Locals")
+!Global("bd_pbdd077","LOCALS",-1)
+IsValidForPartyDialogue("Neera")
+IsValidForPartyDialogue("Edwin")
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobalTimer("SodbantersT","Locals",2600)
+Interact("Neera")
+END
+
+IF
+GlobalTimerExpired("SodbantersT","Locals")
+!Global("bd_pbdd099","LOCALS",-1)
+IsValidForPartyDialogue("Neera")
+IsValidForPartyDialogue("Jaheira")
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobalTimer("SodbantersT","Locals",2600)
+Interact("Neera")
+END
+
+IF
+GlobalTimerExpired("SodbantersT","Locals")
+!Global("bd_pbdd106","LOCALS",-1)
+InParty("Neera") 
+InParty("VOGHILN")
+CombatCounter(0)
+!See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobalTimer("SodbantersT","Locals",2600)
+Interact("Neera")
+END
