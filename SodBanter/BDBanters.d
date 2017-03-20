@@ -618,7 +618,7 @@ DO~SetGlobal("bd_pbdd076","LOCALS",-1) ~
 ==BDorn~I have allies, not friends. A strong ally is valuable indeed.~
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~(Mumbles) I am sure neither of you has friends nor allies but more opponents than you need...~
 ==BDorn~You are powerful, Thayan. But you are not strong. I'll not chain my fortunes to a pampered, simpering child, no matter how many fireballs he juggles.~
-==Bedwin_~You impudent wretch! How DARE you—er, what I mean is, you should not pass up this opportunity. I urge you, reconsider your position.~
+==Bedwin_~You impudent wretch! How DARE you..er, what I mean is, you should not pass up this opportunity. I urge you, reconsider your position.~
 ==BDorn~Or what? You'll mutter at me? I want nothing to do with you, wizard. And you would do well to expect nothing from me.~ 
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~(Grins) And so the chance of a great alliance is lost - or even the chance of an enduring friendship of two *powerful* men.~EXIT
 
