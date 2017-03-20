@@ -12,5 +12,6 @@ This mod is only available for EET - only this modification allows the definitio
 
 Note to modders
 To support this mod, the definition of banter files for SoD was required. These definitions are found in BDBanter.2da. NPCs that continue from the BG1 campaign keep their BG1 Banter file according to EET conventions, new NPCs get a file assigned. For mod NPCs, EET automatically uses the entries made for interdia.2da, so nothing is required from modders for SoD unless they decide to add a different file for this part of the game. A full list of banter files for SoD can be found here:
+
 http://www.shsforums.net/topic/59181-mod-sod-banter-restoration/
 
