@@ -547,190 +547,189 @@ DO~SetGlobal("bd_pbdd062","LOCALS",-1) ~
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd064","LOCALS",-1)InParty("Mkhiin") InParty("Viconia") ~ THEN  BVicon BDBan064
-~Of all the surfacers here, I think you are the most likely to understand me.~
+~Of all the surfacers here, I think you are the most likely to understand me.~ [BD59242]
 DO~SetGlobal("bd_pbdd064","LOCALS",-1) ~
-==BDMKHIIB~Don't know anything about dark elfs.~
-==BDCORWIB IF ~ InParty("Corwin")~THEN~ You can count yourself lucky for that.~
-==BVicon~Humans and their ilk hate and persecute us. We were both born to vicious societies, with the strongest and most ruthless ruling over the weak.~
-==BDMKHIIB~Sounds like my tribe.~
-==BVicon~The cringing males creep in our shadows while the women run our great cities.~
-==BDMKHIIB~Except for that part.~EXIT
+==BDMKHIIB~Don't know anything about dark elfs.~[BD59243]
+==BDCORWIB IF ~ InParty("Corwin")~THEN~ You can count yourself lucky for that.~ [BD59244]
+==BVicon~Humans and their ilk hate and persecute us. We were both born to vicious societies, with the strongest and most ruthless ruling over the weak.~ [BD59245]
+==BDMKHIIB~Sounds like my tribe.~ [BD59246]
+==BVicon~The cringing males creep in our shadows while the women run our great cities.~[BD59247]
+==BDMKHIIB~Except for that part.~ [BD59248] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd066","LOCALS",-1)InParty("Jaheira") InParty("Viconia")~ THEN  BJahei BDBan066
-~It's little wonder the drow are so evil and twisted. To never see the sun or breathe fresh air... it is not a healthy way to live.~
+~It's little wonder the drow are so evil and twisted. To never see the sun or breathe fresh air... it is not a healthy way to live.~ [BD59254]
 DO~SetGlobal("bd_pbdd066","LOCALS",-1) ~
-==BVicon~You only say so because the sun does not burn you, darthiir.~
-==BJahei~You have walked beside me in the light before. The sun hurts you no more than it does any other.~
-==BVicon~Had you lived in the cool and quiet dark of Menzoberranzan before ascending to the surface world's blinding light, you might think differently.~
-==BJahei~I suppose I should have expected no better from a disciple of the Nightsinger.~
-==BVicon~And I nothing better from a waela o'dad.~  EXIT
+==BVicon~You only say so because the sun does not burn you, darthiir.~[BD59255]
+==BJahei~You have walked beside me in the light before. The sun hurts you no more than it does any other.~ [BD59256]
+==BVicon~Had you lived in the cool and quiet dark of Menzoberranzan before ascending to the surface world's blinding light, you might think differently.~ [BD59257]
+==BJahei~I suppose I should have expected no better from a disciple of the Nightsinger.~ [BD59258]
+==BVicon~And I nothing better from a waela o'dad.~ [BD59259] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd067","LOCALS",-1)InParty("Khalid") InParty("Viconia")~ THEN  BKhali BDBan067
-~K-keep your distance, drow.~
+~K-keep your distance, drow.~ [BD59260]
 DO~SetGlobal("bd_pbdd067","LOCALS",-1) ~
-==BVicon~I am merely walking, abban. No need for alarm.~
-==BKhali~You should know I d-don't trust you. I'm prepared to defend myself.~
-==BVicon~From what? I have no desire to harm you. Our goals are aligned, for the moment.~
-==BKhali~It's the m-moment they aren't that worries me.~EXIT
+==BVicon~I am merely walking, abban. No need for alarm.~ [BD59261]
+==BKhali~You should know I d-don't trust you. I'm prepared to defend myself.~ [BD59262]
+==BVicon~From what? I have no desire to harm you. Our goals are aligned, for the moment.~ [BD59263]
+==BKhali~It's the m-moment they aren't that worries me.~ [BD59264] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd068","LOCALS",-1)InParty("Dorn") InParty("Viconia") ~ THEN  BVicon BDBan068
-~So, you too know how it feels to receive instruction from a higher power.~
+~So, you too know how it feels to receive instruction from a higher power.~ [BD59265]
 DO~SetGlobal("bd_pbdd068","LOCALS",-1) ~
-==Bdorn~Do not compare your worship of Shar to the patronage of Ur-Gothoz. They are nothing alike.~
-==BVicon~No? They seem most similar to me. Both offer power we could never attain alone in exchange for devotion.~
-==Bdorn~We are in no way alike, drow. Ur-Gothoz is no remote deity. His orders sound with perfect clarity in my ear.~
-==BVicon~I wonder, is there anyone you would be content being compared to?~
-==Bdorn~There are none like me. None can understand the path I walk.~
-==BVicon~My race and circumstances isolate me. You isolate yourself. There is a price to be paid for that, errdegahr rothe.~ EXIT
+==Bdorn~Do not compare your worship of Shar to the patronage of Ur-Gothoz. They are nothing alike.~[BD59266]
+==BVicon~No? They seem most similar to me. Both offer power we could never attain alone in exchange for devotion.~ [BD59267]
+==Bdorn~We are in no way alike, drow. Ur-Gothoz is no remote deity. His orders sound with perfect clarity in my ear.~ [BD59268]
+==BVicon~I wonder, is there anyone you would be content being compared to?~ [BD59269]
+==Bdorn~There are none like me. None can understand the path I walk.~ [BD59270]
+==BVicon~My race and circumstances isolate me. You isolate yourself. There is a price to be paid for that, errdegahr rothe.~[BD59271] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd069","LOCALS",-1)InParty("Neera") InParty("Viconia") ~ THEN  BNEERA_ BDBan069
-~So, Viconia. Viiiiiiconia. Vicci. Can I call you Vicci?~
+~So, Viconia. Viiiiiiconia. Vicci. Can I call you Vicci?~ [BD59272]
 DO~SetGlobal("bd_pbdd069","LOCALS",-1) ~
-==BVicon~Even you cannot be so fool as to ask this in earnest. Is this some ill-advised attempt at humor?~
-==BNEERA_~Viconia, then. Fine. In that case, you must call me Neera.~
-==BVicon~I have called you nothing else.~
-==BNEERA_~Haven't you ever wanted to, though? Maybe... Neers?~
-==BVicon~Definitely not.~
-==BNEERA_~Peanut? Doll? Pinky?~
-==BVicon~Your antics do not amuse me, girl. Begone.~EXIT
+==BVicon~Even you cannot be so fool as to ask this in earnest. Is this some ill-advised attempt at humor?~ [BD59273]
+==BNEERA_~Viconia, then. Fine. In that case, you must call me Neera.~ [BD59274]
+==BVicon~I have called you nothing else.~ [BD59275]
+==BNEERA_~Haven't you ever wanted to, though? Maybe... Neers?~ [BD59276]
+==BVicon~Definitely not.~[BD59277]
+==BNEERA_~Peanut? Doll? Pinky?~[BD59278]
+==BVicon~Your antics do not amuse me, girl. Begone.~[BD59279]  EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd072","LOCALS",-1)InParty("Edwin") InParty("MKhiin")~ THEN  Bedwin_ BDBan072
-~This is outrageous! How is it I have fallen so far that I travel with a, a—a goblin! To ask such a thing is an insult, one I will not forget and never forgive.~
+~This is outrageous! How is it I have fallen so far that I travel with a, a—a goblin! To ask such a thing is an insult, one I will not forget and never forgive.~ [BD59283]
 DO~SetGlobal("bd_pbdd072","LOCALS",-1) ~
-==BDMKHIIB~You're fat.~
-==Bedwin_~You insolent monkey! How dare you speak to me thus? I should flay the flesh from your bones and make the air heavy with your screams!~
-==BDMKHIIB~Try it. See what happens.~
-==Bedwin_~You see the disrespect it shows me? Again I ask, how has it come to this?~
-==BDMKHIIB~Don't know. Don't care. Keep whining if you want. I'm done with you.~ EXIT
+==BDMKHIIB~You're fat.~ [BD59284]
+==Bedwin_~You insolent monkey! How dare you speak to me thus? I should flay the flesh from your bones and make the air heavy with your screams!~ [BD59285]
+==BDMKHIIB~Try it. See what happens.~ [BD59286]
+==Bedwin_~You see the disrespect it shows me? Again I ask, how has it come to this?~ [BD59287]
+==BDMKHIIB~Don't know. Don't care. Keep whining if you want. I'm done with you.~[BD59288] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd074","LOCALS",-1)InParty("Edwin") InParty("Jaheira")~ THEN  Bedwin_ BDBan074
-~You are not unattractive, Jaheira. Opinionated and overly loud, but even so. Tell me, why do you waste your time with that st-st-stuttering ape Khalid?~
+~You are not unattractive, Jaheira. Opinionated and overly loud, but even so. Tell me, why do you waste your time with that st-st-stuttering ape Khalid?~ [BD59289]
 DO~SetGlobal("bd_pbdd074","LOCALS",-1) ~
-==BJahei~He makes better company than small-minded, cruel little reptiles who would mock a person for their speech.~
-==Bedwin_~Cruel I may be—I live in a cruel world, which is to say the real world. But small-minded? I take exception to that, dear lady.~
-==BJahei~Take what you will. I care as much for your feelings as you do for Khalid's.~
-==Bedwin_~Then you are a greater fool than that oaf you call a husband. I am done with you.~
-==BJahei~I am glad to hear it.~ EXIT
+==BJahei~He makes better company than small-minded, cruel little reptiles who would mock a person for their speech.~ [BD59290]
+==Bedwin_~Cruel I may be—I live in a cruel world, which is to say the real world. But small-minded? I take exception to that, dear lady.~ [BD59291]
+==BJahei~Take what you will. I care as much for your feelings as you do for Khalid's.~ [BD59292]
+==Bedwin_~Then you are a greater fool than that oaf you call a husband. I am done with you.~ [BD59293]
+==BJahei~I am glad to hear it.~[BD59294] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd076","LOCALS",-1)InParty("Edwin") InParty("Dorn")~ THEN  Bedwin_ BDBan076
-~Attend me, half-orc. We are men of considerable power. For now, we each have reason to ally ourselves with inferiors for good reason.~
+~Attend me, half-orc. We are men of considerable power. For now, we each have reason to ally ourselves with inferiors for good reason.~ [BD59295]
 DO~SetGlobal("bd_pbdd076","LOCALS",-1) ~
-==BDorn~You suggest we join forces in the event the Bhaalspawn falls or these others turn on us?~
-==Bedwin_~Powerful friends are a good thing to have.~
-==BDorn~I have allies, not friends. A strong ally is valuable indeed.~
+==BDorn~You suggest we join forces in the event the Bhaalspawn falls or these others turn on us?~ [BD59296]
+==Bedwin_~Powerful friends are a good thing to have.~ [BD59297]
+==BDorn~I have allies, not friends. A strong ally is valuable indeed.~ [BD59298]
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~(Mumbles) I am sure neither of you has friends nor allies but more opponents than you need...~
-==BDorn~You are powerful, Thayan. But you are not strong. I'll not chain my fortunes to a pampered, simpering child, no matter how many fireballs he juggles.~
-==Bedwin_~You impudent wretch! How DARE you—er, what I mean is, you should not pass up this opportunity. I urge you, reconsider your position.~
-==BDorn~Or what? You'll mutter at me? I want nothing to do with you, wizard. And you would do well to expect nothing from me.~ 
+==BDorn~You are powerful, Thayan. But you are not strong. I'll not chain my fortunes to a pampered, simpering child, no matter how many fireballs he juggles.~ [BD59300]
+==Bedwin_~You impudent wretch! How DARE you—er, what I mean is, you should not pass up this opportunity. I urge you, reconsider your position.~ [BD59301]
+==BDorn~Or what? You'll mutter at me? I want nothing to do with you, wizard. And you would do well to expect nothing from me.~ [BD59302]
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~(Grins) And so the chance of a great alliance is lost - or even the chance of an enduring friendship of two *powerful* men.~EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd077","LOCALS",-1)InParty("Neera") InParty("Edwin") ~ THEN  BNEERA_ BDBan077
-~So, Edwin. Eed-win. Eddie. Ed. Can I call you Ed?~
+~So, Edwin. Eed-win. Eddie. Ed. Can I call you Ed?~ [BD59303]
 DO~SetGlobal("bd_pbdd077","LOCALS",-1) ~
-==Bedwin_~Why are you speaking to me, and how do I make you stop?~
-==BNEERA_~Well, you're a Red Wizard, right? I've had some... issues... with them. I was wondering if you could maybe help me out?~
-==Bedwin_~I could... but I won't. I don't like you, half-elf. I spent years mastering my craft. And you... YOU...~
-=~You just reach out and TAKE the power I sweated and sacrificed to gain. I am sure your simian mind cannot begin to imagine how much this chafes.~
-==BNEERA_~So you won't help me because you're jealous?~
-==Bedwin_~Jealous? JEALOUS? You know as little of me as you do magic. Go, leave me be. Your nattering makes my head ache.~EXIT
+==Bedwin_~Why are you speaking to me, and how do I make you stop?~ [BD59304]
+==BNEERA_~Well, you're a Red Wizard, right? I've had some... issues... with them. I was wondering if you could maybe help me out?~ [BD59305]
+==Bedwin_~I could... but I won't. I don't like you, half-elf. I spent years mastering my craft. And you... YOU...~ [BD59306]
+=~You just reach out and TAKE the power I sweated and sacrificed to gain. I am sure your simian mind cannot begin to imagine how much this chafes.~ [BD60214]
+==BNEERA_~So you won't help me because you're jealous?~ [BD59307]
+==Bedwin_~Jealous? JEALOUS? You know as little of me as you do magic. Go, leave me be. Your nattering makes my head ache.~[BD59308] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd087","LOCALS",-1)InParty("Jaheira") InParty("MKHiin")~ THEN  BDMKHIIB BDBan087
-~You don't talk much.~
+~You don't talk much.~ [BD59370]
 DO~SetGlobal("bd_pbdd087","LOCALS",-1) ~
-==BJahei~Silence is a worthwhile skill to cultivate. I speak when I have something worth saying.~
-==BDMKHIIB~I like that.~EXIT
+==BJahei~Silence is a worthwhile skill to cultivate. I speak when I have something worth saying.~ [BD59371]
+==BDMKHIIB~I like that.~ [BD59372] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd088","LOCALS",-1)InParty("Khalid") InParty("MKHiin")~ THEN  BKhali BDBan088
-~I never thought I'd see the d-day when I'd stand shoulder to sh-shoulder with a g-g-goblin.~
+~I never thought I'd see the d-day when I'd stand shoulder to sh-shoulder with a g-g-goblin.~ [BD59374]
 DO~SetGlobal("bd_pbdd088","LOCALS",-1) ~
-==BDMKHIIB~Shoulder only comes up to your stomach. You're standing stomach to shoulder with a goblin~
-==BKhali~You know what I m-mean.~
-==BDMKHIIB~I know what you said. It was wrong.~
-==BKhali~I'm starting to s-see why I never stood stomach to shoulder with a g-g-goblin before...~EXIT
+==BDMKHIIB~Shoulder only comes up to your stomach. You're standing stomach to shoulder with a goblin~ [BD59375]
+==BKhali~You know what I m-mean.~  [BD59376]
+==BDMKHIIB~I know what you said. It was wrong.~ [BD59377]
+==BKhali~I'm starting to s-see why I never stood stomach to shoulder with a g-g-goblin before...~ [BD59378]   EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd098","LOCALS",-1)InParty("Jaheira") InParty("Dorn")~ THEN  BJahei BDBan098
-~Why do we tolerate this villain's presence among us? There are monsters enough in this world without inviting one into our circle.~
+~Why do we tolerate this villain's presence among us? There are monsters enough in this world without inviting one into our circle.~ [BD59436]
 DO~SetGlobal("bd_pbdd098","LOCALS",-1) ~
-==Bdorn~You call me a monster?~
-==BJahei~You deny it?~
-==Bdorn~I'll not waste my time arguing with you. Let me suggest this, though: Only a fool goes out of her way to antagonize a monster.~
-=~Monsters make better friends than enemies. Perhaps that is why my presence is tolerated. I prithee consider the matter. In silence.~  EXIT
+==Bdorn~You call me a monster?~ [BD59437]
+==BJahei~You deny it?~ [BD59438]
+==Bdorn~I'll not waste my time arguing with you. Let me suggest this, though: Only a fool goes out of her way to antagonize a monster.~ [BD59439]
+=~Monsters make better friends than enemies. Perhaps that is why my presence is tolerated. I prithee consider the matter. In silence.~ [BD60222] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd099","LOCALS",-1)InParty("Neera") InParty("Jaheira") ~ THEN  BNEERA_ BDBan099
-~Hey, Jaheira, have you ever noticed that our names rhyme? When they write epic songs about our deeds here, I bet they'll put our names together a lot!~
+~Hey, Jaheira, have you ever noticed that our names rhyme? When they write epic songs about our deeds here, I bet they'll put our names together a lot!~ [BD59440]
 DO~SetGlobal("bd_pbdd099","LOCALS",-1) ~
-==BJahei~What makes such strange thoughts flit through your head, child?~ EXIT
+==BJahei~What makes such strange thoughts flit through your head, child?~[BD59441] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd100","LOCALS",-1)InParty("VOGHILN") InParty("Jaheira")~ THEN  BDVOGHIB BDBan100
-~Come on. Just a little peck on the cheek. What's the harm in that?~
+~Come on. Just a little peck on the cheek. What's the harm in that?~  [BD59444]
 DO~SetGlobal("bd_pbdd100","LOCALS",-1)~
-==BJahei~It'll be in my husband's fists if he finds out about it.~
-==BDVOGHIB~Vot? Your husband raises his hand to you? This is not acceptable.~
-==BJahei~No, you idiot. He'll raise his hand to you. And then bring it down on you, over and over again, like a hammer from the heavens.~
-==BDVOGHIB~Oh, he'd hit ME? Ja, this makes more sense.~EXIT
+==BJahei~It'll be in my husband's fists if he finds out about it.~ [BD59445]
+==BDVOGHIB~Vot? Your husband raises his hand to you? This is not acceptable.~ [BD59446]
+==BJahei~No, you idiot. He'll raise his hand to you. And then bring it down on you, over and over again, like a hammer from the heavens.~ [BD59447]
+==BDVOGHIB~Oh, he'd hit ME? Ja, this makes more sense.~[BD59448]  EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd101","LOCALS",-1)InParty("Khalid") InParty("Dorn")~ THEN  BKhali BDBan101
-~I d-don't think I l-like you, half-orc.~
+~I d-don't think I l-like you, half-orc.~ [BD59449]
 DO~SetGlobal("bd_pbdd101","LOCALS",-1) ~
-==BDorn~I know of a certainty I don't care for you. When you know your own mind, tell me.~
-==BKhali~I d-d-definitely don't like you.~
-==BDorn~Better. Now, what do you plan to do about it? Fight me? Try to kill me? Or do we put our feelings aside and save our hostility for Caelar?~
-==BKhali~Were it not for our f-friend <CHARNAME>, we would fight.~
-==BDorn~Congratulations, hero! In addition to Baldur's Gate and the Sword Coast, you have yanked a stuttering fool from the brink of utter destruction. Well done.~
-==BKhali~Well... Good. Ah, that's g-g-good. That's comforting. I'll go... somewhere else now, I think.~ 
-==BJahei IF~InParty("Jaheira")~THEN~You should thank Gorion's ward for saving your life. Khalid would cut you down before you even unsheathed your blade.~
-==BKhali IF~InParty("Jaheira")~THEN~Well... maybe not QUITE that quickly. Especially as his sword's already drawn.~
-==BJahei IF~InParty("Jaheira")~THEN~Your humility is one of the countless reasons I love you, Khalid, but this is not the time for it.~
-==BKhali IF~InParty("Jaheira")~THEN~Y-yes, dear. As you say.~EXIT
+==BDorn~I know of a certainty I don't care for you. When you know your own mind, tell me.~ [BD59450]
+==BKhali~I d-d-definitely don't like you.~ [BD59451]
+==BDorn~Better. Now, what do you plan to do about it? Fight me? Try to kill me? Or do we put our feelings aside and save our hostility for Caelar?~[BD59452]
+==BKhali~Were it not for our f-friend <CHARNAME>, we would fight.~ [BD59453]
+==BDorn~Congratulations, hero! In addition to Baldur's Gate and the Sword Coast, you have yanked a stuttering fool from the brink of utter destruction. Well done.~ [BD59454]
+==BJahei IF~InParty("Jaheira")~THEN~You should thank Gorion's ward for saving your life. Khalid would cut you down before you even unsheathed your blade.~  [BD59455]
+==BKhali IF~InParty("Jaheira")~THEN~Well... maybe not QUITE that quickly. Especially as his sword's already drawn.~  [BD59456]
+==BJahei IF~InParty("Jaheira")~THEN~Your humility is one of the countless reasons I love you, Khalid, but this is not the time for it.~ [BD59457]
+==BKhali IF~InParty("Jaheira")~THEN~Y-yes, dear. As you say.~[BD59458] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd102","LOCALS",-1)InParty("Khalid") InParty("Neera")~ THEN  BKhali BDBan102
-~How are you holding up, Neera?~
+~How are you holding up, Neera?~ [BD59459]
 DO~SetGlobal("bd_pbdd102","LOCALS",-1) ~
-==BNEERA_~I'm fine, Khalid. I mean, I will be fine. You know, when this is all over.~
-==BKhali~ You're sure? You're not too t-t-tense? I mean, obviously we're all under stress, but you're not going to... you know.~
-==BNEERA_~No, I don't know. Not going to what?~
-==BKhali~Well, there was the... incident at Bridgefort. I—I h-hate to bring it up, but there are s-safety issues...~
-==BNEERA_~Oh, for the love of... I'M NOT GOING TO EXPLODE AND BURN EVERYTHING IN THE VICINITY TO ASHES, all right?~
-==BKhali~Well... Good. Ah, that's g-g-good. That's comforting. I'll go... somewhere else now, I think.~ EXIT
+==BNEERA_~I'm fine, Khalid. I mean, I will be fine. You know, when this is all over.~[BD59460]
+==BKhali~ You're sure? You're not too t-t-tense? I mean, obviously we're all under stress, but you're not going to... you know.~[BD59461]
+==BNEERA_~No, I don't know. Not going to what?~ [BD59462]
+==BKhali~Well, there was the... incident at Bridgefort. I—I h-hate to bring it up, but there are s-safety issues...~ [BD59463]
+==BNEERA_~Oh, for the love of... I'M NOT GOING TO EXPLODE AND BURN EVERYTHING IN THE VICINITY TO ASHES, all right?~ [BD59464]
+==BKhali~Well... Good. Ah, that's g-g-good. That's comforting. I'll go... somewhere else now, I think.~ [BD59465] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd103","LOCALS",-1)InParty("Khalid") InParty("VOGHILN")~ THEN  BKhali BDBan103
-~S-so Voghiln, I just wanted to th-th-thank you for standing with my wife while I was confined to Bridgefort.~
+~S-so Voghiln, I just wanted to th-th-thank you for standing with my wife while I was confined to Bridgefort.~  [BD59466]
 DO~SetGlobal("bd_pbdd103","LOCALS",-1) ~
-==BDVOGHIB~You are a good and noble and very trusting young man, Khalid. Worthy qualities all, ja. I see what Jaheira sees in you.~
-==BKhali~ Y-you do? C-can you tell me? Sometimes I d-don't see it myself...~
-==BDVOGHIB~Ho ho! You make the joke, ja? Ha! Is good one.~
-==BKhali~Yes. Joking...~
-==BJahei IF~InParty("Jaheira")~THEN~Khalid! Stop wasting time with that drunken oaf.~
-==BKhali IF~InParty("Jaheira")~THEN~Of, of course, beloved. E-excuse me, Voghiln. It was good talking to you.~
-==BDVOGHIB~The Luskan Lion is always happy to chat with a fellow warrior. Any time you are in need of the talking, you come find Voghiln. We have a drink, ja?~EXIT
+==BDVOGHIB~You are a good and noble and very trusting young man, Khalid. Worthy qualities all, ja. I see what Jaheira sees in you.~  [BD59467]
+==BKhali~ Y-you do? C-can you tell me? Sometimes I d-don't see it myself...~  [BD59468]
+==BDVOGHIB~Ho ho! You make the joke, ja? Ha! Is good one.~  [BD59470]
+==BKhali~Yes. Joking...~  [BD59471]
+==BJahei IF~InParty("Jaheira")~THEN~Khalid! Stop wasting time with that drunken oaf.~ [BD59472]
+==BKhali IF~InParty("Jaheira")~THEN~Of, of course, beloved. E-excuse me, Voghiln. It was good talking to you.~  [BD59473]
+==BDVOGHIB~The Luskan Lion is always happy to chat with a fellow warrior. Any time you are in need of the talking, you come find Voghiln. We have a drink, ja?~ [BD59474] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd104","LOCALS",-1)InParty("Neera") InParty("Dorn")~ THEN  BNEERA_ BDBan104
-~Hey, Dorn? I've been meaning to ask you something.~
+~Hey, Dorn? I've been meaning to ask you something.~ [BD59475]
 DO~SetGlobal("bd_pbdd104","LOCALS",-1) ~
-==BDorn~I have seen the power you wield, elf. It is impressive...~
-==BNEERA_~Half-elf.~
-==BDorn~I have also endured the endless stream of chatter that tumbles 'twixt your lips.~
-=~Your thoughts mean little to anyone you speak to, and nothing at all to me - to whom you will not speak at all, if you value your life.~
-==BNEERA_~I just wanted to ask...~
-==BDorn~Do you value your life, half-elf?~
-==BNEERA_~Well, yeah. It's not much, I'll admit, but it's all I've got. And now you're drawing your sword - all right then! Great talk.~
+==BDorn~I have seen the power you wield, elf. It is impressive...~ [BD59476]
+==BNEERA_~Half-elf.~ [BD59477]
+==BDorn~I have also endured the endless stream of chatter that tumbles 'twixt your lips.~ [BD59478]
+=~Your thoughts mean little to anyone you speak to, and nothing at all to me - to whom you will not speak at all, if you value your life.~ [BD60223]
+==BNEERA_~I just wanted to ask...~ [BD59479]
+==BDorn~Do you value your life, half-elf?~ [BD59480]
+==BNEERA_~Well, yeah. It's not much, I'll admit, but it's all I've got. And now you're drawing your sword - all right then! Great talk.~ [BD59481]
 ==BNEERA_ IF ~ InParty("CVSandr")~THEN~You see that, Sandrah, he draws his sword?~
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~You see that, Dorn, my hammer is searching for work to do?~
 ==BDorn IF ~ InParty("CVSandr")~THEN~Womanfolk, stay away from me with your chitter chatter, I warn you. ~EXIT
@@ -739,26 +738,26 @@ CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd105","LOCALS",-1)InParty("VOGHILN") InParty("Dorn")~ THEN  BDVOGHIB BDBan105
 ~A drink, Dorn?~
 DO~SetGlobal("bd_pbdd105","LOCALS",-1)~
-==BDorn~I have heard tales of your exploits, skald, but looking at you now, I have trouble believing them. Did you truly conquer the Nightmare Clan?~
-==BDVOGHIB~Ja, this is true. The Nightmares were the terror of the Ten Towns, but no match for mighty Voghiln!~
-==BDorn~The Nightmares' hands could shatter stone and their fangs were sharper than any dagger, or so the stories go.~
-==BDVOGHIB~On my honor, the stories are true, every word. I wrote many myself.~
-==BDorn~You wrote the tales of your heroic defeat of the invincible Nightmares? With that, all is explained.~
-==BDVOGHIB~What is that supposed to mean, half-orc? Tell me, what is it you are meaning with your words there?~
-=~Answer, you bruise-hued monstrosity! What are you saying about mighty Voghiln? What?~
-=~Oh, ja, ja. Just be ignoring me now. This is how men deal with other men where you come from? Pfah! I am laughing at you, you see? Hah! Hah! Laughing!~
-=~Oi. I need a drink...~EXIT
+==BDorn~I have heard tales of your exploits, skald, but looking at you now, I have trouble believing them. Did you truly conquer the Nightmare Clan?~  [BD59484]
+==BDVOGHIB~Ja, this is true. The Nightmares were the terror of the Ten Towns, but no match for mighty Voghiln!~  [BD59485]
+==BDorn~The Nightmares' hands could shatter stone and their fangs were sharper than any dagger, or so the stories go.~[BD59486]
+==BDVOGHIB~On my honor, the stories are true, every word. I wrote many myself.~ [BD59487]
+==BDorn~You wrote the tales of your heroic defeat of the invincible Nightmares? With that, all is explained.~ [BD59488]
+==BDVOGHIB~What is that supposed to mean, half-orc? Tell me, what is it you are meaning with your words there?~ [BD59489]
+=~Answer, you bruise-hued monstrosity! What are you saying about mighty Voghiln? What?~ [BD59490]
+=~Oh, ja, ja. Just be ignoring me now. This is how men deal with other men where you come from? Pfah! I am laughing at you, you see? Hah! Hah! Laughing!~ [BD59491]
+=~Oi. I need a drink...~[BD59492]  EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd106","LOCALS",-1)InParty("Neera") InParty("VOGHILN")~ THEN  BNEERA_ BDBan106
-~...So the wife looked like a goat?~
+~...So the wife looked like a goat?~ [BD59493]
 DO~SetGlobal("bd_pbdd106","LOCALS",-1) ~
-==BDVOGHIB~Ja! And the drunkard thought the sheepherder was married to a goat. Hahaha!~
-==BNEERA_~Ha! Hahahahaha! Wooo... He thought she was a goat; that's a good one. It's good to laugh. Feels like it's been a while, you know?~
-==BDVOGHIB~Ja, ja. And there are other things I have not done of late. Things better done with a lady... Perhaps you and I could do such things together, eh?~
-==BNEERA_~You and I...? You want—HAHAHAHAHAHAHA! Oh, Voghiln, that is great. You had me going there a second, you know that? You really had me going.~
-==BDVOGHIB~You think I was making a joke...? Well, maybe I was. Ja, ja. It was a joke. Good one, eh?~
-==BNEERA_~The best, Voghiln. The best. ~EXIT
+==BDVOGHIB~Ja! And the drunkard thought the sheepherder was married to a goat. Hahaha!~ [BD59494]
+==BNEERA_~Ha! Hahahahaha! Wooo... He thought she was a goat; that's a good one. It's good to laugh. Feels like it's been a while, you know?~ [BD59495]
+==BDVOGHIB~Ja, ja. And there are other things I have not done of late. Things better done with a lady... Perhaps you and I could do such things together, eh?~ [BD59496]
+==BNEERA_~You and I...? You want—HAHAHAHAHAHAHA! Oh, Voghiln, that is great. You had me going there a second, you know that? You really had me going.~ [BD59497]
+==BDVOGHIB~You think I was making a joke...? Well, maybe I was. Ja, ja. It was a joke. Good one, eh?~[BD59498]
+==BNEERA_~The best, Voghiln. The best. ~[BD59499]  EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd110","LOCALS",-1)InParty("MKHiin") InParty("CVSandr")~ THEN  BDMKHIIB BDBan110
