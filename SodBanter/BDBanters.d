@@ -1,130 +1,138 @@
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd001","LOCALS",-1)InParty("Minsc") InParty("Corwin")~ THEN  BMINSC_ BDBan001
-~My toes itch, Boo. How much longer must I wait before we find a nice evil face worthy of kicking, do you think?~
+~My toes itch, Boo. How much longer must I wait before we find a nice evil face worthy of kicking, do you think?~ [BD58848]
 DO~SetGlobal("bd_pbdd001","LOCALS",-1) ~
-==BDCORWIB~There's no shortfall of faces deserving a good kick in this world. I'm sure we'll come across one sooner than later.~
-==BMINSC_~And then Minsc does what he does best! Hehe!~
-==BDCORWIB~Ramble nonsensically to his pet rodent about other peoples' rears?~
-==BMINSC_~And then Minsc will do what he does second best!~ EXIT
+==BDCORWIB~There's no shortfall of faces deserving a good kick in this world. I'm sure we'll come across one sooner than later.~ [BD58849]
+==BMINSC_~And then Minsc does what he does best! Hehe!~ [BD58850]
+==BDCORWIB~Ramble nonsensically to his pet rodent about other peoples' rears?~ [BD58851]
+==BMINSC_~And then Minsc will do what he does second best!~ [BD58852] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd002","LOCALS",-1)InParty("Dynaheir") InParty("Corwin")~ THEN  BDYNAH BDBan002
-~Tell me, Captain Corwin, what is thine opinion of our friend, the hero of Baldur's Gate?~
-DO~SetGlobal("bd_pbdd002","LOCALS",-1) ~
-==BDCORWIB~Hadn't given it much thought. Having a famous hero around is handy, but it also seems to attract trouble.~
-==BDYNAH~Or create it. ~
-==BDCORWIB~Such people always invite hassles. You don't get called "hero" without someone trying to pull you down.~
-==BDYNAH~Yet thou wouldst support our group and keep our companion standing in the face of those who wish us ill?~
-==BDCORWIB~That's my assignment, so yeah. Why do you ask?~
-==BDYNAH~I just wanted to know where thou stood, should worse come to worst. And now I do.~EXIT
+~Tell me, Captain Corwin — what is thine opinion of our friend, the hero of Baldur's Gate?~ [BD58853]
+DO~SetGlobal("bd_pbdd002","LOCALS",-1) ~ 
+==BDCORWIB~Hadn't given it much thought. Having a famous hero around is handy, but it also seems to attract trouble.~ [BD58854]
+==BDYNAH~Or create it. ~  [BD58855]
+==BDCORWIB~Such people always invite hassles. You don't get called "hero" without someone trying to pull you down.~ [BD58856]
+==BDYNAH~Yet thou wouldst support our group and keep our companion standing in the face of those who wish us ill?~ [BD58857]
+==BDCORWIB~That's my assignment, so yeah. Why do you ask?~ [BD58858]
+==BDYNAH~I just wanted to know where thou stood, should worse come to worst. And now I do.~ [BD58859] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd003","LOCALS",-1)InParty("Rasaad") InParty("Corwin")~ THEN  BDRASAAB BDBan003
-~May I have a word, Captain Corwin?~
+~May I have a word, Captain Corwin?~ [BD58860]
 DO~SetGlobal("bd_pbdd003","LOCALS",-1) ~
-==BDCORWIB~No. You can have five.~
-==BDRASAAB~I am sorry, I do not - that is six right there, eleven now... I am sorry.~
-==BDCORWIB~I though monks were supposed to be serene... It was a joke, Rasaad. What can I do for you?~
-==BDRASAAB~I was wondering if you had heard of any unusual disappearances of late. In Baldur's Gate, or elsewhere.~
-==BDCORWIB~As opposed to the USUAL disappearances.~
-==BDRASAAB~Before I left the city, several of my sect disappeared. More than can be explained by coincidence. I fear the followers of Selune have been targeted.~
-==BDCORWIB~Now that you mention it, I did hear a couple Selunites went missing. One was seen struggling with several robed figures, as I recall... ~
-=~The Fist started investigating, but with the iron crisis and now Caelar, we're spread pretty thin. I don't know what came of it, if anything.~
-==BDRASAAB~Thank you for this information. Believe me when I say it is much appreciated.~EXIT
+==BDCORWIB~No. You can have five.~ [BD58861]
+==BDRASAAB~I am sorry, I do not — that is six right there, eleven now... I am sorry.~ [BD58862]
+==BDCORWIB~I though monks were supposed to be serene... It was a joke, Rasaad. What can I do for you?~ [BD58863]
+==BDRASAAB~I was wondering if you had heard of any unusual disappearances of late. In Baldur's Gate, or elsewhere.~  [BD58864]
+==BDCORWIB~As opposed to the USUAL disappearances.~  [BD58865]
+==BDRASAAB~Before I left the city, several of my sect disappeared. More than can be explained by coincidence. I fear the followers of Selune have been targeted.~  [BD58866]
+==BDCORWIB~Now that you mention it, I did hear a couple Selunites went missing. One was seen struggling with several robed figures, as I recall.. ~ [BD58867]
+=~The Fist started investigating, but with the iron crisis and now Caelar, we're spread pretty thin. I don't know what came of it, if anything.~ [BD58868]
+==BDRASAAB~Thank you for this information. Believe me when I say it is much appreciated.~ [BD58869] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd004","LOCALS",-1)InParty("Safana") InParty("Corwin")~ THEN  BSAFAN BDBan004
-~So tell me, Captain, how did someone like you rise so high in the Flaming Fist?~
+~So tell me, Captain, how did someone like you rise so high in the Flaming Fist?~ [BD58870]
 DO~SetGlobal("bd_pbdd004","LOCALS",-1) ~
-==BDCORWIB~That depends what you mean by someone like me.~
-==BSAFAN~There aren't many mothers who'd rather fight zealots thousands of miles from home when they could be making their children dinner and putting them to bed.~
-==BDCORWIB~Circumstances don't allow many people, mothers or otherwise, to do what they'd prefer.~
-==BSAFAN~Nonsense. I do what I will, where I will, when I will, with whom I will.~
-==BDCORWIB~Keep flapping your lips and I'll show you a pathetic creature, you little tart.~
-==BSAFAN~Captain Corwin, please! I meant no disrespect...~
-==BDCORWIB~I know what you meant. Next time, keep that thrice-damned pit of hell you call a mouth shut or I'll shut it for you.~EXIT
+==BDCORWIB~That depends what you mean by someone like me.~ [BD58871]
+==BSAFAN~There aren't many mothers who'd rather fight zealots thousands of miles from home when they could be making their children dinner and putting them to bed.~ [BD58872]
+==BDCORWIB~Circumstances don't allow many people, mothers or otherwise, to do what they'd prefer.~ [BD58873]
+==BSAFAN~Nonsense. I do what I will, where I will, when I will, with whom I will.~ [BD58874]
+==BDCORWIB~Keep flapping your lips and I'll show you a pathetic creature, you little tart.~ [BD58875]
+==BSAFAN~Captain Corwin, please! I meant no disrespect...~  [BD58876]
+==BDCORWIB~I know what you meant. Next time, keep that thrice-damned pit of hell you call a mouth shut or I'll shut it for you.~ [BD58877] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd005","LOCALS",-1)InParty("Viconia") InParty("Corwin")~ THEN  BDCORWIB BDBan005
-~What are you playing at here, drow?~
+~What are you playing at here, drow?~ [BD58878]
 DO~SetGlobal("bd_pbdd005","LOCALS",-1) ~
-==BVicon~I'm sorry?~
-==BDCORWIB~I can't figure you out. What's the draw? What do you hope to gain from helping in this effort?~
-==BVicon~Is it so hard to believe I might seek outcasts like myself, looking for companionship or even... support?~
-==BDCORWIB~It's very hard to believe. And that little speech doesn't make me believe it any more.~
-==BVicon~You are a clever woman. I begin to see why our friend <CHARNAME> tolerates you.~EXIT
+==BVicon~I'm sorry?~ [BD58879]
+==BDCORWIB~I can't figure you out. What's the draw? What do you hope to gain from helping in this effort?~ [BD58881]
+==BVicon~Is it so hard to believe I might seek outcasts like myself, looking for companionship or even... support?~ [BD58882]
+==BDCORWIB~It's very hard to believe. And that little speech doesn't make me believe it any more.~ [BD58883]
+==BVicon~You are a clever woman. I begin to see why our friend <CHARNAME> tolerates you.~[BD58884] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd006","LOCALS",-1)InParty("Edwin") InParty("Corwin")~ THEN  Bedwin_ BDBan006
-~I do not understand, <CHARNAME>. The camp is safe. Why do we not stay within it?~
+~I do not understand, <CHARNAME>. The camp is safe. Why do we not stay within it?~ [BD58885]
 DO~SetGlobal("bd_pbdd006","LOCALS",-1) ~
-==BDCORWIB~You've spoken of nothing but paying Caelar back since we left Coast Way Crossing.~
-==Bedwin_~The shining harlot owes me a debt, it is true — but I plan to collect with two score Flaming Fist mercenaries at my side, not a handful of chimps. ~
-==BDCORWIB~The Fist has better things to do than watch a Thayan braggart's back. You don't like the chimps, feel free to leave.~
-==Bedwin_~Don't think I'm not tempted, you loathsome scapegrace! (Control, Odesseiron, control. The wench may yet prove useful...)~
-==BDCORWIB~I can hear you, you know. We all can.~
-==BDMKHIIB IF ~ InMyArea("MKHIIN")~THEN~She's right. Think you're talking to yourself. You're talking to everyone.~
+==BDCORWIB~You've spoken of nothing but paying Caelar back since we left Coast Way Crossing.~ [BD58886]
+==Bedwin_~The shining harlot owes me a debt, it is true — but I plan to collect with two score Flaming Fist mercenaries at my side, not a handful of chimps. ~  [BD58887]
+==BDCORWIB~The Fist has better things to do than watch a Thayan braggart's back. You don't like the chimps, feel free to leave.~[BD58888]
+==Bedwin_~Don't think I'm not tempted, you loathsome scapegrace! (Control, Odesseiron, control. The wench may yet prove useful...)~ [BD58889]
+==BDCORWIB~I can hear you, you know. We all can.~ [BD58890]
+==BDMKHIIB IF ~ InMyArea("MKHIIN")~THEN~She's right. Think you're talking to yourself. You're talking to everyone.~ [BD58891]
 ==BVicon IF ~ !InMyArea("MKHIIN") InParty("Viconia")~THEN~She's right. Think you're talking to yourself. You're talking to everyone.~
 ==BSAFAN IF ~ !InMyArea("MKHIIN") !InParty("Viconia")InParty("Safana")~THEN~She's right. Think you're talking to yourself. You're talking to everyone.~
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")!InMyArea("MKHIIN") !InParty("Viconia")!InParty("Safana") ~ THEN ~She is right. You think you are talking to yourself but you are talking aloud.~
 ==BDCORWIB IF ~ !InMyArea("MKHIIN") !InParty("Viconia")!InParty("Safana") !InParty("CVSandr")~THEN~ Think you're talking to yourself. You're talking to everyone.~
-==Bedwin_~Shut your mouth! I'll not hear this baseless slander. (Calm yourself, Edwin. Ignore the monkeys; do not let them drag you down to their level.)~
-==BDCORWIB~Yes, by all means, ignore us.~EXIT
+==Bedwin_~Shut your mouth! I'll not hear this baseless slander. (Calm yourself, Edwin. Ignore the monkeys; do not let them drag you down to their level.)~  [BD58892]
+==BDCORWIB~Yes, by all means, ignore us.~ [BD58893] 
+==BDMKHIIB IF ~ InMyArea("MKHIIN")~THEN~Most do.~ [BD58894]  EXIT
 
 // BDBan007 Internal
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd008","LOCALS",-1)InParty("Corwin") InParty("MKHIIN") ~ THEN  BDMKHIIB BDBan008
-~Flaming Fist?~
+~Flaming Fist?~ [BD58898]
 DO~SetGlobal("bd_pbdd008","LOCALS",-1) ~
-==BDCORWIB~I'm a captain of the Flaming Fist, if that's what you're asking.~
-==BDMKHIIB~Fist killed my brother. And my cousin. And my other brother. And my uncle. And two of my other brothers.~
-==BDCORWIB~I'm sorry for your loss.~
-==BDMKHIIB~Didn't like most of 'em. One of my cousins was all right. Didn't know him that well. Got a spear shoved through his face. ~
-==BDCORWIB~You're not like any goblin I've ever encountered, you know that?~
-==BDMKHIIB~You're not like any Flaming Fist I've met. Haven't tried to kill me. Yet.~EXIT
+==BDCORWIB~I'm a captain of the Flaming Fist, if that's what you're asking.~  [BD58899]
+==BDMKHIIB~Fist killed my brother. And my cousin. And my other brother. And my uncle. And two of my other brothers.~ [BD58900]
+==BDCORWIB~I'm sorry for your loss.~ [BD58901]
+==BDMKHIIB~Didn't like most of 'em. One of my cousins was all right. Didn't know him that well. Got a spear shoved through his face. ~  [BD58902]
+==BDCORWIB~You're not like any goblin I've ever encountered, you know that?~ [BD58903]
+==BDMKHIIB~You're not like any Flaming Fist I've met. Haven't tried to kill me. Yet.~[BD58904]  EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd009","LOCALS",-1)InParty("Corwin") InParty("Glint") ~ THEN  BDGLINTB  BDBan009
-~Ohhh, when you live for adventure, You're never far from life. When you're a slave who's indentured, You'd better find a knife. But if you long for a normal existence And pursue it with dogged persistence, You'll find that a normal life's, The eeeasiest thing of alllllll... ~
+~Ohhh, when you live for adventure, 
+You're never far from life. 
+When you're a slave who's indentured, 
+You'd better find a knife. 
+But if you long for a normal existence 
+And pursue it with dogged persistence, 
+You'll find that a normal life's, 
+The eeeasiest thing of alllllll... ~ [BD58907]
 DO~SetGlobal("bd_pbdd009","LOCALS",-1)~
-=~Yeah! I could've been a bard. I just never wanted to.~
-==BDCORWIB~Do you ever get tired, gnome?~
-==BDGLINTB~Never! Maybe. Tired of what?~
-==BDCORWIB~Being so... enthusiastic.~
-==BDGLINTB~Nah. It's like my mum always says: "Baravar's cloak, son, you're driving me mad. Stop bouncing your leg like that or I'll cut it off." ~
-=~"Just sit still, sit still you little... Look, just stop moving. Stop it. STOP IT." ~
-==BDCORWIB~I'm going to stop talking to you now. And I'm especially going to stop listening.~
-==BDGLINTB~You do what you've gotta do, Cap'n. You'll get no argument from me.~EXIT
+=~Yeah! I could've been a bard. I just never wanted to.~ [BD58908]
+==BDCORWIB~Do you ever get tired, gnome?~ [BD58909]
+==BDGLINTB~Never! Maybe. Tired of what?~ [BD58910]
+==BDCORWIB~Being so... enthusiastic.~ [BD58911]
+==BDGLINTB~Nah. It's like my mum always says: "Baravar's cloak, son, you're driving me mad. Stop bouncing your leg like that or I'll cut it off." ~ [BD58912]
+=~"Just sit still, sit still you little— Look, just stop moving. Stop it. STOP IT." ~ [BD60116]
+==BDCORWIB~I'm going to stop talking to you now. And I'm especially going to stop listening.~[BD58915]
+==BDGLINTB~You do what you've gotta do, Cap'n. You'll get no argument from me.~ [BD58916] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd010","LOCALS",-1)InParty("Jaheira") InParty("Corwin")~ THEN  BJahei BDBan010
-~I could not live as you live, Captain Corwin. Always in the city, away from the green... Such a life would be unbearable.~
+~I could not live as you live, Captain Corwin. Always in the city, away from the green... Such a life would be unbearable.~  [BD58917]
 DO~SetGlobal("bd_pbdd010","LOCALS",-1) ~
-==BDCORWIB~Rohma makes it bearable. Trees and grass are fine, but she's what I really have trouble being away from.~
-==BJahei~It was not always easy for Khalid and I to maintain our bond while we traveled, but we found our ways.~
-==BDCORWIB~I hope Rohma knows my heart is always with her. But she's still a child. I worry.~EXIT
+==BDCORWIB~Rohma makes it bearable. Trees and grass are fine, but she's what I really have trouble being away from.~  [BD58918]
+==BJahei~It was not always easy for Khalid and I to maintain our bond while we traveled, but we found our ways.~ [BD58919]
+==BDCORWIB~I hope Rohma knows my heart is always with her. But she's still a child. I worry.~ [BD58921] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd011","LOCALS",-1)InParty("Khalid") InParty("Corwin")~ THEN  BKhali BDBan011
-~You're a f-fine fighter, C-captain Corwin.~
+~You're a f-fine fighter, C-captain Corwin.~ [BD58922]
 DO~SetGlobal("bd_pbdd011","LOCALS",-1) ~
-==BDCORWIB~That's high praise, coming from someone who knows his way around a sword as well as you.~
-==BKhali~I trained with the city militia back in C-c-calimport - dedicated warriors, all. Fighting for one's city inspires much d-d-devotion and courage.~
-==BDCORWIB~A city's just a bunch of buildings. It's ideals that inspire people. Principles. That's why the crusade's going to be so much trouble.~
-=~I WISH the crusaders were just fighting for a city. That's a fight I know we could win. The one we've got...? Time will tell.~
-==BKhali~I see. I, uh, I'll-I'll just leave you to your th-thoughts, then.~EXIT
+==BDCORWIB~That's high praise, coming from someone who knows his way around a sword as well as you.~ [BD58923]
+==BKhali~I trained with the city militia back in C-c-calimport — dedicated warriors, all. Fighting for one's city inspires much d-d-devotion and courage.~ [BD58924]
+==BDCORWIB~A city's just a bunch of buildings. It's ideals that inspire people. Principles. That's why the crusade's going to be so much trouble.~ [BD58925]
+=~I WISH the crusaders were just fighting for a city. That's a fight I know we could win. The one we've got...? Time will tell.~ [BD60126]
+==BKhali~I see. I, uh, I'll—I'll just leave you to your th-thoughts, then.~ [BD58926] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd012","LOCALS",-1)InParty("Dorn") InParty("Corwin")~ THEN  BDCORWIB BDBan012
-~Do you actually care about anything we're trying to accomplish here?~
+~Do you actually care about anything we're trying to accomplish here?~ [BD58927]
 DO~SetGlobal("bd_pbdd012","LOCALS",-1) ~
-==BDorn~I care about what I'M trying to accomplish. I care about the vengeance I will wreak on those who dared imprison me.~
-==BDCORWIB~But not about stopping the crusade? Or the damage they could do - have done - to the Sword Coast?~
-==BDorn~Your woefully narrow perspective does you no credit, Captain.~
-=~If, say, Grand Duke Eltan led the crusade, rather than Caelar - would you be so offended by the "damage" it's caused then? I think not.~
-==BDCORWIB~Rationalize your selfishness and greed however you want, half-orc. In this instance, my cause is just. I fight for a higher ideal.~
-==BDorn~You fight for money, Captain. That's what mercenaries do. Before you accuse me of rationalizing my actions, you would do well to examine your own.~ EXIT
+==BDorn~I care about what I'M trying to accomplish. I care about the vengeance I will wreak on those who dared imprison me.~ [BD58928]
+==BDCORWIB~But not about stopping the crusade? Or the damage they could do—have done—to the Sword Coast?~ [BD58929]
+==BDorn~Your woefully narrow perspective does you no credit, Captain.~ [BD58930]
+=~If, say, Grand Duke Eltan led the crusade, rather than Caelar — would you be so offended by the "damage" it's caused then? I think not.~  [BD60127]
+==BDCORWIB~Rationalize your selfishness and greed however you want, half-orc. In this instance, my cause is just. I fight for a higher ideal.~ [BD58932]
+==BDorn~You fight for money, Captain. That's what mercenaries do. Before you accuse me of rationalizing my actions, you would do well to examine your own.~ [BD58933] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd013","LOCALS",-1)InParty("Neera") InParty("Corwin")~ THEN  BNEERA_ BDBan013
@@ -219,7 +227,7 @@ DO~SetGlobal("bd_pbdd021","LOCALS",-1) ~
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd022","LOCALS",-1)InParty("Minsc") InParty("Glint") ~ THEN  BDGLINTB  BDBan022
-~Gods help me. Minsc, I just had a thought. What if - WHAT IF I'm not a gnome? What if I'm actually a miniature giant space gnome? From spaaaace?~
+~Gods help me. Minsc, I just had a thought. What if—WHAT IF I'm not a gnome? What if I'm actually a miniature giant space gnome? From spaaaace?~
 DO~SetGlobal("bd_pbdd022","LOCALS",-1)~
 ==BMINSC_~Boo says that's crazy. You are a crazy in the head gnome.~
 ==BDGLINTB~A crazy in the head gnome from spaaaace!~
@@ -334,7 +342,7 @@ IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd038","LOCALS",-1)InP
 DO~SetGlobal("bd_pbdd038","LOCALS",-1) ~
 ==BDorn ~I've been judged by better than you, witch, and better still have tried to punish me. None have come to good ends.~
 ==BDYNAH~I have faced more fearsome things than thee, dark one.~
-==BDorn ~You wanted to tell me I was observed. You have done so. When -if - you decide to do more than watch... well, that will be most interesting.~
+==BDorn ~You wanted to tell me I was observed. You have done so. When—if—you decide to do more than watch... well, that will be most interesting.~
 ==BDYNAH~We shall see.~
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~He should be well aware that more than one pair or eyes make sure no harm is done to <CHARNAME> or any of us.~
 ==BMINSC_ IF ~ InParty("Minsc")~THEN~No! I do not like him either, but crawling into his armor to bite and tickle him would be unseemly for a hamster of your elevated stature.~EXIT
@@ -446,7 +454,7 @@ DO~SetGlobal("bd_pbdd050","LOCALS",-1) ~
 ==BDRASAAB~Most refrain from setting their own dwellings aflame when preparing a repast.~
 ==BNEERA_~"Most" people live in fear and misery. Maybe they SHOULD set their houses on fire to make dinner. Ever think of that?~
 ==BDRASAAB~I admit, I had not.~
-==BDGLINTB IF~InParty("Glint")~THEN~I think you may be on to something, Neera. What about a-a-a "fire box"? Something that continually emits fireballs! You could cook a potato in no time! ~
+==BDGLINTB IF~InParty("Glint")~THEN~I think you may be on to something, Neera. What about a—a—a "fire box"? Something that continually emits fireballs! You could cook a potato in no time! ~
 ==BDGLINTB IF~InParty("Glint")~THEN~Magic... I just love it.~ EXIT
 
 CHAIN
@@ -591,7 +599,7 @@ DO~SetGlobal("bd_pbdd069","LOCALS",-1) ~
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd072","LOCALS",-1)InParty("Edwin") InParty("MKhiin")~ THEN  Bedwin_ BDBan072
-~This is outrageous! How is it I have fallen so far that I travel with a, a-a goblin! To ask such a thing is an insult, one I will not forget and never forgive.~
+~This is outrageous! How is it I have fallen so far that I travel with a, a—a goblin! To ask such a thing is an insult, one I will not forget and never forgive.~
 DO~SetGlobal("bd_pbdd072","LOCALS",-1) ~
 ==BDMKHIIB~You're fat.~
 ==Bedwin_~You insolent monkey! How dare you speak to me thus? I should flay the flesh from your bones and make the air heavy with your screams!~
@@ -604,7 +612,7 @@ IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd074","LOCALS",-1)InP
 ~You are not unattractive, Jaheira. Opinionated and overly loud, but even so. Tell me, why do you waste your time with that st-st-stuttering ape Khalid?~
 DO~SetGlobal("bd_pbdd074","LOCALS",-1) ~
 ==BJahei~He makes better company than small-minded, cruel little reptiles who would mock a person for their speech.~
-==Bedwin_~Cruel I may be - I live in a cruel world, which is to say the real world. But small-minded? I take exception to that, dear lady.~
+==Bedwin_~Cruel I may be—I live in a cruel world, which is to say the real world. But small-minded? I take exception to that, dear lady.~
 ==BJahei~Take what you will. I care as much for your feelings as you do for Khalid's.~
 ==Bedwin_~Then you are a greater fool than that oaf you call a husband. I am done with you.~
 ==BJahei~I am glad to hear it.~ EXIT
@@ -618,7 +626,7 @@ DO~SetGlobal("bd_pbdd076","LOCALS",-1) ~
 ==BDorn~I have allies, not friends. A strong ally is valuable indeed.~
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~(Mumbles) I am sure neither of you has friends nor allies but more opponents than you need...~
 ==BDorn~You are powerful, Thayan. But you are not strong. I'll not chain my fortunes to a pampered, simpering child, no matter how many fireballs he juggles.~
-==Bedwin_~You impudent wretch! How DARE you..er, what I mean is, you should not pass up this opportunity. I urge you, reconsider your position.~
+==Bedwin_~You impudent wretch! How DARE you—er, what I mean is, you should not pass up this opportunity. I urge you, reconsider your position.~
 ==BDorn~Or what? You'll mutter at me? I want nothing to do with you, wizard. And you would do well to expect nothing from me.~ 
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~(Grins) And so the chance of a great alliance is lost - or even the chance of an enduring friendship of two *powerful* men.~EXIT
 
@@ -695,7 +703,7 @@ DO~SetGlobal("bd_pbdd102","LOCALS",-1) ~
 ==BNEERA_~I'm fine, Khalid. I mean, I will be fine. You know, when this is all over.~
 ==BKhali~ You're sure? You're not too t-t-tense? I mean, obviously we're all under stress, but you're not going to... you know.~
 ==BNEERA_~No, I don't know. Not going to what?~
-==BKhali~Well, there was the... incident at Bridgefort. I-I h-hate to bring it up, but there are s-safety issues...~
+==BKhali~Well, there was the... incident at Bridgefort. I—I h-hate to bring it up, but there are s-safety issues...~
 ==BNEERA_~Oh, for the love of... I'M NOT GOING TO EXPLODE AND BURN EVERYTHING IN THE VICINITY TO ASHES, all right?~
 ==BKhali~Well... Good. Ah, that's g-g-good. That's comforting. I'll go... somewhere else now, I think.~ EXIT
 
@@ -747,7 +755,7 @@ DO~SetGlobal("bd_pbdd106","LOCALS",-1) ~
 ==BDVOGHIB~Ja! And the drunkard thought the sheepherder was married to a goat. Hahaha!~
 ==BNEERA_~Ha! Hahahahaha! Wooo... He thought she was a goat; that's a good one. It's good to laugh. Feels like it's been a while, you know?~
 ==BDVOGHIB~Ja, ja. And there are other things I have not done of late. Things better done with a lady... Perhaps you and I could do such things together, eh?~
-==BNEERA_~You and I...? You want ...HAHAHAHAHAHAHA! Oh, Voghiln, that is great. You had me going there a second, you know that? You really had me going.~
+==BNEERA_~You and I...? You want—HAHAHAHAHAHAHA! Oh, Voghiln, that is great. You had me going there a second, you know that? You really had me going.~
 ==BDVOGHIB~You think I was making a joke...? Well, maybe I was. Ja, ja. It was a joke. Good one, eh?~
 ==BNEERA_~The best, Voghiln. The best. ~EXIT
 
