@@ -136,94 +136,95 @@ DO~SetGlobal("bd_pbdd012","LOCALS",-1) ~
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd013","LOCALS",-1)InParty("Neera") InParty("Corwin")~ THEN  BNEERA_ BDBan013
-~Hey, Corwin. Corrrrwin. Corrie. Can I call you Corrie?~
+~Hey, Corwin. Corrrrwin. Corrie. Can I call you Corrie?~  [BD58934]
 DO~SetGlobal("bd_pbdd013","LOCALS",-1) ~
-==BDCORWIB~No. What is it, Neera?~
-==BNEERA_~Nothing too important. I was just wondering how you think we're doing. As a team, I mean. The group of us, working together. Yep. Doing pretty good, huh?~
-==BDCORWIB~You're doing a good job. Your skills are proving invaluable.~
-==BNEERA_~Really?! You mean it? That is... I... I wasn't worried about ME, exactly. It was the team, you know.~
-==BDCORWIB~It's a good team, Neera. We're fortunate you're part of it.~
+==BDCORWIB~No. What is it, Neera?~ [BD58935]
+==BNEERA_~Nothing too important. I was just wondering how you think we're doing. As a team, I mean. The group of us, working together. Yep. Doing pretty good, huh?~ [BD58936]
+==BDCORWIB~You're doing a good job. Your skills are proving invaluable.~ [BD58937]
+==BNEERA_~Really?! You mean it? That is... I... I wasn't worried about ME, exactly. It was the team, you know.~  [BD58938]
+==BDCORWIB~It's a good team, Neera. We're fortunate you're part of it.~ [BD58939]
 ==BNEERA_ IF ~InParty("CVSandr")~THEN~You heard that, Sandrah?~
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~Sure, Neera, I would have told you the same if you had asked me.~
 ==BNEERA_~Wow, what a day!~EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd014","LOCALS",-1)InParty("VOGHILN") InParty("Corwin")~ THEN  BDVOGHIB BDBan014
-~Mistress Corwin, I take a moment of your time, ja? There is something I must say to you.~
+~Mistress Corwin, I take a moment of your time, ja? There is something I must say to you.~ [BD58940]
 DO~SetGlobal("bd_pbdd014","LOCALS",-1)~
-==BDCORWIB~Here it comes...~
-==BSAFAN IF~InParty("Safana") ~THEN~Brace yourself, honey.~
-==BDVOGHIB~Of all the warriors Voghiln the Mighty has fought with, and there are many, you are one of the best. To fight at your side is a great honor.~
+==BDCORWIB~Here it comes...~  [BD58941]
+==BSAFAN IF~InParty("Safana") ~THEN~Brace yourself, honey.~ [BD58942]
+==BDVOGHIB~Of all the warriors Voghiln the Mighty has fought with, and there are many, you are one of the best. To fight at your side is a great honor.~ [BD58943]
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~Word for word exactly what he told me yesterday...~
-==BDCORWIB~That... that's it? That's all you wanted to say? Nothing about my appearance or the fun we'd have together?~
-==BDVOGHIB~Voghiln does not talk ONLY about the womans. He appreciates a fine warrior when he meets one. Or perhaps it is that you want to hear how beautiful you are, ja? ~
+==BDCORWIB~That... that's it? That's all you wanted to say? Nothing about my appearance or the fun we'd have together?~ [BD58944]
+==BDVOGHIB~Voghiln does not talk ONLY about the womans. He appreciates a fine warrior when he meets one. Or perhaps it is that you want to hear how beautiful you are, ja? ~ [BD58945]
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~Corwin, if you like I can give you a summary of what will come next.~
 ==BDCORWIB IF ~ InParty("CVSandr")~THEN~Thanks, but this isn't the first dilettante bard I met, believe me.~
-==BDCORWIB IF ~ !InParty("CVSandr")~THEN~No, please don't. I mean... I'm fine. Thank you.~EXIT
+==BDCORWIB IF ~ !InParty("CVSandr")~THEN~No, please don't. I mean... I'm fine. Thank you.~ [BD58946] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd015","LOCALS",-1)InParty("Dynaheir") InParty("Minsc")~ THEN  BDYNAH BDBan015
-~'Tis good to be on the road again, Minsc, thou and I and our friend, <CHARNAME>.~
+~'Tis good to be on the road again, Minsc, thou and I and our friend, <CHARNAME>.~ [BD58947]
 DO~SetGlobal("bd_pbdd015","LOCALS",-1) ~
-==BMINSC_~And Boo. None of this would be possible without him!~
-==BDYNAH~Yes, of course. How could I have forgotten Boo?~
-==BMINSC_~It is like old times again. Action! Adventure! Smashing evil! If there be danger about, Boo and I will protect you.~
-==BDYNAH~I have no doubt of it. And I shall try to steer thee rightly in return.~EXIT
+==BMINSC_~And Boo. None of this would be possible without him!~ [BD58948]
+==BDYNAH~Yes, of course. How could I have forgotten Boo?~ [BD58949]
+==BMINSC_~It is like old times again. Action! Adventure! Smashing evil! If there be danger about, Boo and I will protect you.~ [BD58951]
+==BDYNAH~I have no doubt of it. And I shall try to steer thee rightly in return.~ [BD58952] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd016","LOCALS",-1)InParty("Dorn") InParty("Minsc") InParty("Rasaad")~ THEN  BMINSC_ BDBan016
-~I think you are a strange warrior, Rasaad. Why do you wear no armor, carry no shield?~
+~I think you are a strange warrior, Rasaad. Why do you wear no armor, carry no shield?~ [BD58953]
 DO~SetGlobal("bd_pbdd016","LOCALS",-1) ~
-==BDRASAAB~Armor is too restrictive. It is better to never feel a blow than to expend energy warding it off.~
-==BDorn~Speak for yourself, monk. Pain strengthens the body and the mind.~
-==BMINSC_~Why not do both? Wrap yourself in steel and then do your fancy dodging dance for double the protection! Even Minsc could not hurt you then!~
+==BDRASAAB~Armor is too restrictive. It is better to never feel a blow than to expend energy warding it off.~ [BD58954]
+==BDorn~Speak for yourself, monk. Pain strengthens the body and the mind.~ [BD58955]
+==BMINSC_~Why not do both? Wrap yourself in steel and then do your fancy dodging dance for double the protection! Even Minsc could not hurt you then!~ [BD58956]
 ==BMINSC_ IF ~ InParty("CVSandr")~THEN~Wouldn't that be just like Sandrah dances with her hammer...~
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~Minsc, you know my teacher was an evil, evil drow who taught me their sword dance.~
-==BDRASAAB~I do not think - ~
-==BMINSC_~No, no. You are right. My mighty blows hit EVERYTHING. Ha! Even monks dancing in plate mail! Ha! What was I thinking? Ha!~EXIT
+==BDRASAAB~I do not think... ~ [BD58957]
+==BMINSC_~No, no. You are right. My mighty blows hit EVERYTHING. Ha! Even monks dancing in plate mail! Ha! What was I thinking? Ha!~ [BD58958] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd017","LOCALS",-1) InParty("Safana") InParty("Minsc") ~ THEN  BMINSC_ BDBan017
-~Minsc has a message for you.~
+~Minsc has a message for you.~ [BD58959]
 DO~SetGlobal("bd_pbdd017","LOCALS",-1) ~
-==BSAFAN~For me? From who?~
-==BMINSC_~It is from Boo! He would like to say that you are a very pretty lady. Yes, and Boo has excellent taste, so this is quite a compliment. Uh, relish it.~
-==BSAFAN~Your rat thinks I'm pretty, hm? That's adorable.~
-==BMINSC_~Boo is no rat! He is a miniature giant space hamster. Do not offend him, lest he nibble your ears off in your sleep!~
-==BSAFAN~Rat, hamster, what's the difference?~
-==BMINSC_~What is the difference? Oh, Safana! You have so much to learn.~
-==BSAFAN~You've given me much to think about. Why don't you bother someone else while I do so? Good boy.~EXIT
+==BSAFAN~For me? From who?~ [BD58960]
+==BMINSC_~It is from Boo! He would like to say that you are a very pretty lady. Yes, and Boo has excellent taste, so this is quite a compliment. Uh, relish it.~ [BD58961]
+==BSAFAN~Your rat thinks I'm pretty, hm? That's adorable.~ [BD58962]
+==BMINSC_~Boo is no rat! He is a miniature giant space hamster. Do not offend him, lest he nibble your ears off in your sleep!~ [BD58963]
+==BSAFAN~Rat, hamster, what's the difference?~ [BD58964]
+==BMINSC_~What is the difference? Oh, Safana! You have so much to learn.~ [BD58965]
+=~For one thing, rats are much larger than hamsters. Except giant space hamsters, of course. Those are larger even than Minsc!~
+==BSAFAN~You've given me much to think about. Why don't you bother someone else while I do so? Good boy.~ [BD58966] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd018","LOCALS",-1)InParty("Minsc") InParty("Viconia") ~ THEN  BVicon BDBan018
-~You show such devotion to your companions. Your witch and your... hamster, is it? It's an appealing trait you have.~
+~You show such devotion to your companions. Your witch and your... hamster, is it? It's an appealing trait you have.~ [BD58967]
 DO~SetGlobal("bd_pbdd018","LOCALS",-1) ~
-==BMINSC_~Oho! What game do you play here, evil elf lady? It will take more than compliments to make Minsc trust you!~
-==BSAFAN IF~ InParty("Safana")~THEN~ Hm. The barbarian's not COMPLETELY without sense. Who'd have thought?~
-==BVicon~You are too suspicious, pale one. I merely made an observation.~
-==BMINSC_~You do more than that - you said loyalty is "appealing." But Minsc has heard that drow betray each other at every turn.~
-==BVicon~Oh, they do. That is why your loyalty appeals.~EXIT
+==BMINSC_~Oho! What game do you play here, evil elf lady? It will take more than compliments to make Minsc trust you!~ [BD58968]
+==BSAFAN IF~ InParty("Safana")~THEN~ Hm. The barbarian's not COMPLETELY without sense. Who'd have thought?~  [BD58969]
+==BVicon~You are too suspicious, pale one. I merely made an observation.~ [BD58970]
+==BMINSC_~You do more than that - you said loyalty is "appealing." But Minsc has heard that drow betray each other at every turn.~ [BD58971]
+==BVicon~Oh, they do. That is why your loyalty appeals.~ [BD58972] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd019","LOCALS",-1)InParty("Minsc") InParty("Edwin") ~ THEN  Bedwin_ BDBan019
-~Such muscles you have! Why if you were to have brains where your muscles were, imagine the wizard you could be!~
+~Such muscles you have! Why if you were to have brains where your muscles were, imagine the wizard you could be!~ [BD58973]
 DO~SetGlobal("bd_pbdd019","LOCALS",-1) ~
-==BMINSC_~A muscle-bound wizard with brains where his muscles should be? That does not sound much like Minsc.~
-==Bedwin_~Well, of course it's not. I'm saying if, you cretin, IF. A hypothesis, a conjecture. Do you not understand? (Get a hold of yourself; you're used to this by now!)~
-==BMINSC_~No, I do not think Minsc would enjoy that. He would cast a spell to return his muscles to their proper place. Boo is all the brains Minsc needs.~
-==Bedwin_~Muttonhead.~  EXIT
+==BMINSC_~A muscle-bound wizard with brains where his muscles should be? That does not sound much like Minsc.~  [BD58974]
+==Bedwin_~Well, of course it's not. I'm saying if, you cretin, IF. A hypothesis, a conjecture. Do you not understand? (Get a hold of yourself; you're used to this by now!)~ [BD58975]
+==BMINSC_~No, I do not think Minsc would enjoy that. He would cast a spell to return his muscles to their proper place. Boo is all the brains Minsc needs.~ [BD58976]
+==Bedwin_~Muttonhead.~ [BD58977] EXIT
 
 // BDBan020 Internal
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd021","LOCALS",-1)InParty("Minsc") InParty("MKHIIN") ~ THEN  BDMKHIIB BDBan021
-~Must be nice being big. Your mind's bent, but no one pushes you around.~
+~Must be nice being big. Your mind's bent, but no one pushes you around.~ [BD58981]
 DO~SetGlobal("bd_pbdd021","LOCALS",-1) ~
-==BMINSC_~Who pushes you around, little one? Minsc will show them the pointy end of his sword! Or maybe one of the sharp sides. Decisions, decisions...~
-==BDMKHIIB~Everyone pushes me around. My family. My tribe. Other tribes. Humans. The world.~
-==BMINSC_~But you walk free now, yes? There is no mean tribe, no angry humans around telling you what to do?~
-==BDMKHIIB~Not for now. ~
-==BMINSC_~Then do as Boo does and enjoy the moment. In it, you are as big as you need to be.~EXIT
+==BMINSC_~Who pushes you around, little one? Minsc will show them the pointy end of his sword! Or maybe one of the sharp sides. Decisions, decisions...~ [BD58982]
+==BDMKHIIB~Everyone pushes me around. My family. My tribe. Other tribes. Humans. The world.~ [BD58983]
+==BMINSC_~But you walk free now, yes? There is no mean tribe, no angry humans around telling you what to do?~ [BD58984]
+==BDMKHIIB~Not for now. ~ [BD58985]
+==BMINSC_~Then do as Boo does and enjoy the moment. In it, you are as big as you need to be.~ [BD58986] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd022","LOCALS",-1)InParty("Minsc") InParty("Glint") ~ THEN  BDGLINTB  BDBan022
