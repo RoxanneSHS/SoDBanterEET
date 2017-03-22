@@ -228,114 +228,114 @@ DO~SetGlobal("bd_pbdd021","LOCALS",-1) ~
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd022","LOCALS",-1)InParty("Minsc") InParty("Glint") ~ THEN  BDGLINTB  BDBan022
-~Gods help me. Minsc, I just had a thought. What if—WHAT IF I'm not a gnome? What if I'm actually a miniature giant space gnome? From spaaaace?~
+~Gods help me. Minsc, I just had a thought. What if—WHAT IF I'm not a gnome? What if I'm actually a miniature giant space gnome? From spaaaace?~ [BD58987]
 DO~SetGlobal("bd_pbdd022","LOCALS",-1)~
-==BMINSC_~Boo says that's crazy. You are a crazy in the head gnome.~
-==BDGLINTB~A crazy in the head gnome from spaaaace!~
-==BMINSC_~I think not.~
-==BDGLINTB~I know! It's amazing - my absolute favorite thing about you. Other than Boo, of course. Gotta love the hamster.~
-==BMINSC_~You may be crazy in the head, but Boo says you have taste.~EXIT
+==BMINSC_~Boo says that's crazy. You are a crazy in the head gnome.~ [BD58988]
+==BDGLINTB~A crazy in the head gnome from spaaaace!~ [BD58989]
+==BMINSC_~I think not.~ [BD58990]
+==BDGLINTB~I know! It's amazing - my absolute favorite thing about you. Other than Boo, of course. Gotta love the hamster.~ [BD58991]
+==BMINSC_~You may be crazy in the head, but Boo says you have taste.~ [BD58992] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd023","LOCALS",-1)InParty("Jaheira") InParty("Minsc") ~ THEN  BMINSC_ BDBan023
-~Friend Jaheira. In your travels, you have seen strange and wonderful creatures, yes?~
+~Friend Jaheira. In your travels, you have seen strange and wonderful creatures, yes?~ [BD58993]
 DO~SetGlobal("bd_pbdd023","LOCALS",-1) ~
-==BJahei~Many, yes.~
+==BJahei~Many, yes.~ [BD58994]
 ==BMINSC_~Good, good. That is good.~
-=~And in your journeys, have you perhaps encountered a giant miniature space hamster other than Boo? A FEMALE giant miniature space hamster?~
-==BJahei~I think we have more important things to do than this, don't you?~
-==BMINSC_~Are you sure? Boo is restless...~
+=~And in your journeys, have you perhaps encountered a giant miniature space hamster other than Boo? A FEMALE giant miniature space hamster?~ [BD58995]
+==BJahei~I think we have more important things to do than this, don't you?~ [BD58996]
+==BMINSC_~Are you sure? Boo is restless...~ [BD58997]
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~Minsc, are you really so sure that Boo is not a female after all?~
 ==BJahei IF ~ InParty("CVSandr")~THEN~ By Silvanus, girl, do you need to fuel his madness even more?~
 ==BMINSC_ IF ~ InParty("CVSandr")~THEN~Boo, are you a girl?~EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd024","LOCALS",-1)InParty("Khalid") InParty("Minsc")~ THEN  BKhali BDBan024
-~D-do you think we will achieve victory over the crusade, f-friend Minsc?~
+~D-do you think we will achieve victory over the crusade, f-friend Minsc?~ [BD58998]
 DO~SetGlobal("bd_pbdd024","LOCALS",-1) ~
-==BMINSC_~You doubt it? Look at our stalwart selves! Minsc is more stalwart than many, that is true, but you are not without a certain stalwartness yourself!~
+==BMINSC_~You doubt it? Look at our stalwart selves! Minsc is more stalwart than many, that is true, but you are not without a certain stalwartness yourself!~ [BD58998]
 ==BJahei IF ~ InParty("Jaheira")~THEN~Khalid is as stalwart as they come. None could say otherwise.~
 ==BMINSC_ IF ~ InParty("Jaheira")~THEN~Our friend is a brave and wise ally.~
 ==BMINSC_~And we have a secret weapon, a giant miniature SPACE secret weapon. The crusade will fall beneath our stalwart butt-kicking boots!~
-==BKhali~W-when you put it that way, I have no d-doubt.~EXIT
+==BKhali~W-when you put it that way, I have no d-doubt.~ [BD59002] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd025","LOCALS",-1)InParty("Dorn") InParty("Minsc") ~ THEN  BMINSC_ BDBan025
-~Minsc has not met many as strong as he is. But you, evil orc man, you may be as strong as Minsc. Perhaps stronger. Minsc does not say that often.~
+~Minsc has not met many as strong as he is. But you, evil orc man, you may be as strong as Minsc. Perhaps stronger. Minsc does not say that often.~ [BD59003]
 DO~SetGlobal("bd_pbdd025","LOCALS",-1) ~
-==BDorn~"May be," ranger? Have no doubt of it. I could snap your bones like twigs and leave you lifeless on the ground.~
-==BMINSC_~Aha! That is where you are wrong! For Minsc has Boo and our friend <CHARNAME>. Attack Minsc and you attack us all!~
-==BDorn~I underestimated you. You offset your weakness allying yourself with the strong - a shrewd strategy.~
+==BDorn~"May be," ranger? Have no doubt of it. I could snap your bones like twigs and leave you lifeless on the ground.~ [BD59004]
+==BMINSC_~Aha! That is where you are wrong! For Minsc has Boo and our friend <CHARNAME>. Attack Minsc and you attack us all!~ [BD59005]
+==BDorn~I underestimated you. You offset your weakness allying yourself with the strong - a shrewd strategy.~ [BD59006]
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN~What you always underestimate, Dorn, is the true power of friendship and the even greater power of love.~
-==BMINSC_~I have no strategy. Just friendship, and that friendship makes Minsc stronger than you will ever be.~EXIT
+==BMINSC_~I have no strategy. Just friendship, and that friendship makes Minsc stronger than you will ever be.~ [BD59007] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd026","LOCALS",-1)InParty("Neera") InParty("Minsc") ~ THEN  BMINSC_ BDBan026
-~Many do not understand Minsc. And many do not understand your witchery. We can do nothing about this. People will do as they will, understand or not.~
+~Many do not understand Minsc. And many do not understand your witchery. We can do nothing about this. People will do as they will, understand or not.~ [BD59014]
 DO~SetGlobal("bd_pbdd026","LOCALS",-1) ~
-=~To be happy, you must be true even though you are misunderstood. And if you can, get a witch and a hamster! They are good things to have.~
-==BNEERA_~That's... actually pretty good advice. Huh. Thanks, big guy.~EXIT
+=~To be happy, you must be true even though you are misunderstood. And if you can, get a witch and a hamster! They are good things to have.~ [BD59015]
+==BNEERA_~That's... actually pretty good advice. Huh. Thanks, big guy.~[BD59016] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd027","LOCALS",-1)InParty("VOGHILN") InParty("Minsc")~ THEN  BDVOGHIB BDBan027
-~Minsc, mine friend, I am thinking you need to relax. For warriors such as us, fighting should be for fun.~
+~Minsc, mine friend, I am thinking you need to relax. For warriors such as us, fighting should be for fun.~ [BD59017]
 DO~SetGlobal("bd_pbdd027","LOCALS",-1)~
-==BMINSC_~Fighting evil is fun!~
-==BDVOGHIB~But you seem not to enjoy the thrill of battle. You holler so loud banshees cringe, but I am never seeing a smile as you hack a foe to bloody chunks.~
-==BMINSC_~I enjoy battle. I enjoy it much more than the people whose butts I kick.~
-==BDVOGHIB~Being happier than one who is miserable, this is no great feat. Where is the joy, ranger? I ask you this, where is the joy?~
-==BMINSC_~Boo was right about you, skald. You do not understand the Ice Dragon spirit.~EXIT
+==BMINSC_~Fighting evil is fun!~ [BD59018]
+==BDVOGHIB~But you seem not to enjoy the thrill of battle. You holler so loud banshees cringe, but I am never seeing a smile as you hack a foe to bloody chunks.~  [BD59019]
+==BMINSC_~I enjoy battle. I enjoy it much more than the people whose butts I kick.~ [BD59020]
+==BDVOGHIB~Being happier than one who is miserable, this is no great feat. Where is the joy, ranger? I ask you this, where is the joy?~ [BD59021]
+==BMINSC_~Boo was right about you, skald. You do not understand the Ice Dragon spirit.~ [BD59022] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd028","LOCALS",-1)InParty("Dynaheir") InParty("Rasaad")~ THEN  BDYNAH BDBan028
-~I feel comfortable in thy presence, monk. Thou hast a serenity about thee that pleases me.~
+~I feel comfortable in thy presence, monk. Thou hast a serenity about thee that pleases me.~ [BD59023]
 DO~SetGlobal("bd_pbdd028","LOCALS",-1) ~
-==BDRASAAB~I am glad to hear it. But my heart is not so peaceful as it may seem. There are days, many days I yet find... trying.~
-==BDYNAH~The worthy will ever strive to better themselves, but if I understand thy story correctly, thou art to be commended for how far thou hast come in life.~
-==BDRASAAB~I thank you for the compliment. Would that I could see in myself what you see in me.~EXIT
+==BDRASAAB~I am glad to hear it. But my heart is not so peaceful as it may seem. There are days, many days I yet find... trying.~ [BD59024]
+==BDYNAH~The worthy will ever strive to better themselves, but if I understand thy story correctly, thou art to be commended for how far thou hast come in life.~  [BD59025]
+==BDRASAAB~I thank you for the compliment. Would that I could see in myself what you see in me.~[BD59026] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd029","LOCALS",-1)InParty("Dynaheir") InParty("Safana")~ THEN  BDYNAH BDBan029
-~I do not know if I fully trust thee, Safana.~
+~I do not know if I fully trust thee, Safana.~ [BD59027]
 DO~SetGlobal("bd_pbdd029","LOCALS",-1) ~
-==BSAFAN~I wouldn't if I were you. My mother always said, "You can always trust a man to do the wrong thing, but never trust a woman to do anything."~
-==BDYNAH~Thy mother had a dim view of humanity.~
-==BSAFAN~She knew humanity well. That does tend to adversely affect one's view of it, in my experience.~
-==BDYNAH~Thou'rt thy mother's daughter.~
-==BSAFAN~So she claimed. I have my doubts.~EXIT
+==BSAFAN~I wouldn't if I were you. My mother always said, "You can always trust a man to do the wrong thing, but never trust a woman to do anything."~ [BD59028]
+==BDYNAH~Thy mother had a dim view of humanity.~ [BD59029]
+==BSAFAN~She knew humanity well. That does tend to adversely affect one's view of it, in my experience.~ [BD59030]
+==BDYNAH~Thou'rt thy mother's daughter.~ [BD59031]
+==BSAFAN~So she claimed. I have my doubts.~ [BD59032] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd030","LOCALS",-1)InParty("Dynaheir") InParty("Viconia")~ THEN  BDYNAH BDBan030
-~Thou hast poor reasons for making this journey, drow.~
+~Thou hast poor reasons for making this journey, drow.~ [BD59033]
 DO~SetGlobal("bd_pbdd030","LOCALS",-1) ~
-==BVicon~There are better reasons than survival and profit? I've yet to find them.~
-==BDYNAH~Thou'rt in the Underdark no longer. Perhaps thou should'st make more of an effort to adapt to the surface world's ways.~
-==BVicon~And if I did, what would it benefit me? My skin is black, my hair white. I am drow. Nothing I do will change how surfacers see me.~
-==BDYNAH~Thou'rt wrong, Viconia. In the end, actions are what define us - not the color of our skin.~
-==BVicon~That is what you want to believe, waela. I have been taught differently, and I learned my lessons well.~EXIT
+==BVicon~There are better reasons than survival and profit? I've yet to find them.~ [BD59034]
+==BDYNAH~Thou'rt in the Underdark no longer. Perhaps thou should'st make more of an effort to adapt to the surface world's ways.~ [BD59035]
+==BVicon~And if I did, what would it benefit me? My skin is black, my hair white. I am drow. Nothing I do will change how surfacers see me.~ [BD59036]
+==BDYNAH~Thou'rt wrong, Viconia. In the end, actions are what define us - not the color of our skin.~  [BD59037]
+==BVicon~That is what you want to believe, waela. I have been taught differently, and I learned my lessons well.~ [BD59038] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd033","LOCALS",-1)InParty("Dynaheir") InParty("Mkhiin")~ THEN  BDYNAH BDBan033
-~Thou'rt like no other goblin I have ever met, M'Khiin.~
+~Thou'rt like no other goblin I have ever met, M'Khiin.~ [BD59045]
 DO~SetGlobal("bd_pbdd033","LOCALS",-1) ~
-==BDMKHIIB~What's a "thou"?~
-==BDYNAH~Hm. In truth, I'd not given the matter much consideration before now. How to explain this? Well, um... thou'rt thou.~
-=~And what is thine belongs to thee. Thy hair, thine eyes, thy nose, these things are thine. Dost thou see now?~
-==BDMKHIIB~So... "thou" means "you."~
-==BDYNAH~Thou hast the truth of it. That is exactly right.~
-==BDMKHIIB~I'd just say "you." It's easier. But talk how you want. Doesn't matter, long as you're happy. Thou're happy.~
-==BDYNAH~"Thou'rt."~
-==BDMKHIIB~Huh? ~
-==BDYNAH~Never thee mind.~EXIT
+==BDMKHIIB~What's a "thou"?~ [BD59046]
+==BDYNAH~Hm. In truth, I'd not given the matter much consideration before now. How to explain this? Well, um... thou'rt thou.~ [BD59047]
+=~And what is thine belongs to thee. Thy hair, thine eyes, thy nose, these things are thine. Dost thou see now?~  [BD60140]
+==BDMKHIIB~So... "thou" means "you."~ [BD59048]
+==BDYNAH~Thou hast the truth of it. That is exactly right.~ [BD59049]
+==BDMKHIIB~I'd just say "you." It's easier. But talk how you want. Doesn't matter, long as you're happy. Thou're happy.~  [BD59050]
+==BDYNAH~"Thou'rt."~ [BD59051]
+==BDMKHIIB~Huh? ~ [BD59052]
+==BDYNAH~Never thee mind.~ [BD59053] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd036","LOCALS",-1)InParty("Dynaheir") InParty("Jaheira")~ THEN  BJahei  BDBan036
-~It is good to once again travel with a woman who understands the trials of a life of adventure.~
+~It is good to once again travel with a woman who understands the trials of a life of adventure.~ [BD59061]
 DO~SetGlobal("bd_pbdd036","LOCALS",-1) ~
-==BDYNAH~'Tis no easy life for thee or me, that is true. Danger awaits at every turn. There shall be no quiet home life for us, at least not for some time to come.~
-==BJahei ~I meant that you understand what it is to look after a man on the road.~
-==BDYNAH~Ah, yes, thou hast the truth of it. Without us to act as guide and mother and taskmistress all in one...~
-==BJahei ~The poor dears would stand no chance.~EXIT
+==BDYNAH~'Tis no easy life for thee or me, that is true. Danger awaits at every turn. There shall be no quiet home life for us, at least not for some time to come.~ [BD59062]
+==BJahei ~I meant that you understand what it is to look after a man on the road.~[BD59063]
+==BDYNAH~Ah, yes, thou hast the truth of it. Without us to act as guide and mother and taskmistress all in one...~  [BD59064]
+==BJahei ~The poor dears would stand no chance.~[BD59065] EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd038","LOCALS",-1)InParty("Dynaheir") InParty("Dorn")~ THEN  BDYNAH BDBan038
