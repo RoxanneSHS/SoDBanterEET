@@ -5,6 +5,10 @@ VERSION ~v0.2b~
 
 BEGIN ~SoD Banter Restoration~
 
+
+REQUIRE_PREDICATE GAME_IS ~eet~ ~This version is for EET only~
+
+
 COPY_EXISTING ~BDBanter.2da~ ~override~
 REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~BDSAFANB~ ~BSAFAN    ~ BUT_ONLY
 
@@ -53,6 +57,9 @@ COMPILE ~SoDBanter/BDGLINTB.d~
 END
 
 COMPILE ~SoDBanter/BDBanters.d~
+
+STRING_SET
+239808 ~They all do, Mae'Var. For the moment.~
 
 EXTEND_TOP
 ~bd1000.bcs~ ~SoDBanter/Showbanter.baf~
