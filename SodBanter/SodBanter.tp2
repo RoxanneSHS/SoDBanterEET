@@ -1,12 +1,15 @@
 BACKUP ~SoDBanter/backup~
 AUTHOR ~Roxanne - https://baldursextendedworld.com/SoD-Banters/ or roxanne@baldursextendedworld.com~
 
-VERSION ~v0.4~
+VERSION ~v0.5~
 
-BEGIN ~SoD Banter Restoration~
+AUTO_TRA ~SoDBanter/TRA/%s~
 
+LANGUAGE ~English~ ~english~ ~SoDBanter/Tra/english/setup.tra~
 
-REQUIRE_PREDICATE GAME_IS ~eet~ ~This version is for EET only~
+BEGIN @1
+
+REQUIRE_PREDICATE GAME_IS ~eet~ @2
 
 
 COPY_EXISTING ~BDBanter.2da~ ~override~
@@ -59,7 +62,7 @@ END
 COMPILE ~SoDBanter/BDBanters.d~
 
 STRING_SET
-239808 ~They all do, Mae'Var. For the moment.~
+239808 @3
 
 EXTEND_TOP
 ~bd1000.bcs~ ~SoDBanter/Showbanter.baf~
