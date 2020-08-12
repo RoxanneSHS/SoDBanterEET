@@ -6,6 +6,7 @@ VERSION ~v0.5~
 AUTO_TRA ~SoDBanter/TRA/%s~
 
 LANGUAGE ~English~ ~english~ ~SoDBanter/Tra/english/setup.tra~
+LANGUAGE ~Deutsch~ ~german~ ~SoDBanter/Tra/german/setup.tra~
 
 BEGIN @1
 
