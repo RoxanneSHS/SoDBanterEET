@@ -52,7 +52,7 @@ DO~SetGlobal("bd_pbdd005","LOCALS",-1) ~
 ==BDCORWIB@32
 ==BVicon@33
 ==BDCORWIB@34
-==BVicon~You are a clever woman. I begin to see why our friend <CHARNAME> tolerates you.~[BD58884] EXIT
+==BVicon@35 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd006","LOCALS",-1)InParty("Edwin") InParty("Corwin")~ THEN  Bedwin_ BDBan006
@@ -60,7 +60,7 @@ IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd006","LOCALS",-1)InP
 DO~SetGlobal("bd_pbdd006","LOCALS",-1) ~
 ==BDCORWIB@37
 ==Bedwin_@38
-==BDCORWIB~The Fist has better things to do than watch a Thayan braggart's back. You don't like the chimps, feel free to leave.~[BD58888]
+==BDCORWIB@39
 ==Bedwin_@40
 ==BDCORWIB@41
 ==BDMKHIIB IF ~ InMyArea("MKHIIN")~THEN@42
@@ -83,7 +83,7 @@ DO~SetGlobal("bd_pbdd008","LOCALS",-1) ~
 ==BDCORWIB@52
 ==BDMKHIIB@53
 ==BDCORWIB@54
-==BDMKHIIB~You're not like any Flaming Fist I've met. Haven't tried to kill me. Yet.~[BD58904]  EXIT
+==BDMKHIIB@55  EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd009","LOCALS",-1)InParty("Corwin") InParty("Glint") ~ THEN  BDGLINTB  BDBan009
@@ -95,7 +95,7 @@ DO~SetGlobal("bd_pbdd009","LOCALS",-1)~
 ==BDCORWIB@60
 ==BDGLINTB@61
 =@62
-==BDCORWIB~I'm going to stop talking to you now. And I'm especially going to stop listening.~[BD58915]
+==BDCORWIB@63
 ==BDGLINTB@64 EXIT
 
 CHAIN
@@ -267,7 +267,7 @@ IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd026","LOCALS",-1)InP
 @167
 DO~SetGlobal("bd_pbdd026","LOCALS",-1) ~
 =@168
-==BNEERA_~That's... actually pretty good advice. Huh. Thanks, big guy.~[BD59016] EXIT
+==BNEERA_@169 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd027","LOCALS",-1)InParty("VOGHILN") InParty("Minsc")~ THEN  BDVOGHIB BDBan027
@@ -285,7 +285,7 @@ IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd028","LOCALS",-1)InP
 DO~SetGlobal("bd_pbdd028","LOCALS",-1) ~
 ==BDRASAAB@177
 ==BDYNAH@178
-==BDRASAAB~I thank you for the compliment. Would that I could see in myself what you see in me.~[BD59026] EXIT
+==BDRASAAB@179 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd029","LOCALS",-1)InParty("Dynaheir") InParty("Safana")~ THEN  BDYNAH BDBan029
@@ -326,9 +326,9 @@ IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd036","LOCALS",-1)InP
 @202
 DO~SetGlobal("bd_pbdd036","LOCALS",-1) ~
 ==BDYNAH@203
-==BJahei ~I meant that you understand what it is to look after a man on the road.~[BD59063]
+==BJahei @204
 ==BDYNAH@205
-==BJahei ~The poor dears would stand no chance.~[BD59065] EXIT
+==BJahei @206 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd038","LOCALS",-1)InParty("Dynaheir") InParty("Dorn")~ THEN  BDYNAH BDBan038
@@ -339,7 +339,7 @@ DO~SetGlobal("bd_pbdd038","LOCALS",-1) ~
 ==BDorn @210
 ==BDYNAH@211
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN@212
-==BMINSC_ IF ~ InParty("Minsc")~THEN~No! I do not like him either, but crawling into his armor to bite and tickle him would be unseemly for a hamster of your elevated stature.~[BD59083] EXIT
+==BMINSC_ IF ~ InParty("Minsc")~THEN@213 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd039","LOCALS",-1)InParty("Dynaheir") InParty("Neera")~ THEN  BDYNAH BDBan039
@@ -355,7 +355,7 @@ DO~SetGlobal("bd_pbdd039","LOCALS",-1) ~
 ==BNEERA_ IF ~ InParty("CVSandr")~THEN@222
 ==BNEERA_ IF ~ !InParty("CVSandr")~THEN@223
 ==BDYNAH IF ~ !InParty("CVSandr")~THEN@224
-==BNEERA_ IF ~ !InParty("CVSandr")~THEN~At this point, I'm pretty used to that. Thanks, though.~[BD59094] EXIT
+==BNEERA_ IF ~ !InParty("CVSandr")~THEN@225 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd041","LOCALS",-1)InParty("Rasaad") InParty("Safana")~ THEN  BDRASAAB BDBan041
@@ -370,13 +370,13 @@ CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd042","LOCALS",-1)InParty("Rasaad") InParty("Viconia")~ THEN  BDRASAAB BDBan042
 @231
 DO~SetGlobal("bd_pbdd042","LOCALS",-1) ~
-==BVicon~Selunite.~[BD59106] EXIT
+==BVicon@232 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd043","LOCALS",-1)InParty("Rasaad") InParty("Edwin")~ THEN  BDRASAAB BDBan043
 @233
 DO~SetGlobal("bd_pbdd043","LOCALS",-1) ~
-==Bedwin_~Who told you that?! Have you been spying on me? A SPY, are you?~[BD59112]
+==Bedwin_@234
 ==BDRASAAB@235
 ==Bedwin_@236
 ==BDRASAAB@237 EXIT
@@ -425,17 +425,17 @@ IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd048","LOCALS",-1)InP
 DO~SetGlobal("bd_pbdd048","LOCALS",-1) ~
 ==BKhali@263
 ==BDRASAAB@264
-==BKhali~I can't say it didn't happen to me from t-time to time. Perhaps you picked my pocket!~[BD59150]
+==BKhali@265
 ==BDRASAAB@266
 ==BKhali@267
-==BDRASAAB~I shall try to do so. I suppose I have not entirely put those days behind me. Even now they find a way to disrupt my serenity.~[BD59153] EXIT
+==BDRASAAB@268 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd049","LOCALS",-1)InParty("Rasaad") InParty("Dorn")~ THEN  BDRASAAB BDBan049
 @269
 DO~SetGlobal("bd_pbdd049","LOCALS",-1) ~
 ==BDorn@270
-==BDRASAAB~Why would I want to? I have no quarrel with you. And in the matter of Caelar, at least, we share a goal.~[BD59155]
+==BDRASAAB@271
 ==BDorn@272
 ==BDRASAAB@273 EXIT
 
@@ -475,7 +475,7 @@ IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd053","LOCALS",-1)InP
 @293
 DO~SetGlobal("bd_pbdd053","LOCALS",-1) ~
 ==Bedwin_@294
-==BSAFAN~Sure you were.~[BD59176]
+==BSAFAN@295
 ==Bedwin_@296
 ==BSAFAN@297
 ==Bedwin_@298
@@ -503,7 +503,7 @@ DO~SetGlobal("bd_pbdd058","LOCALS",-1) ~
 ==BSAFAN@308
 ==BKhali@309
 =@310
-==BSAFAN~Hm. Flattery will get you everywhere, darling.~[BD59212] EXIT
+==BSAFAN@311 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd059","LOCALS",-1)InParty("Safana") InParty("Dorn")~ THEN  BSAFAN BDBan059
@@ -512,7 +512,7 @@ DO~SetGlobal("bd_pbdd059","LOCALS",-1) ~
 ==IF_FILE_EXISTS BSandr IF ~ InParty("CVSandr")~THEN@313
 ==Bdorn@314
 ==BSAFAN@315
-==Bdorn~While Caelar lives, we have more important things to do than bathe.~[BD59216]
+==Bdorn@316
 ==BSAFAN@317
 ==Bdorn@318
 ==BSAFAN@319
@@ -536,24 +536,24 @@ DO~SetGlobal("bd_pbdd062","LOCALS",-1) ~
 ==BVicon@329
 ==Bedwin_@330
 ==BVicon@331
-==Bedwin_~There's no need for threats. (You try to compliment some people and what do you get?)~[BD59237] EXIT
+==Bedwin_@332 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd064","LOCALS",-1)InParty("Mkhiin") InParty("Viconia") ~ THEN  BVicon BDBan064
 @333
 DO~SetGlobal("bd_pbdd064","LOCALS",-1) ~
-==BDMKHIIB~Don't know anything about dark elfs.~[BD59243]
+==BDMKHIIB@334
 ==BDCORWIB IF ~ InParty("Corwin")~THEN@335
 ==BVicon@336
 ==BDMKHIIB@337
-==BVicon~The cringing males creep in our shadows while the women run our great cities.~[BD59247]
+==BVicon@338
 ==BDMKHIIB@339 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd066","LOCALS",-1)InParty("Jaheira") InParty("Viconia")~ THEN  BJahei BDBan066
 @340
 DO~SetGlobal("bd_pbdd066","LOCALS",-1) ~
-==BVicon~You only say so because the sun does not burn you, darthiir.~[BD59255]
+==BVicon@341
 ==BJahei@342
 ==BVicon@343
 ==BJahei@344
@@ -572,12 +572,12 @@ CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd068","LOCALS",-1)InParty("Dorn") InParty("Viconia") ~ THEN  BVicon BDBan068
 @351
 DO~SetGlobal("bd_pbdd068","LOCALS",-1) ~
-==Bdorn~Do not compare your worship of Shar to the patronage of Ur-Gothoz. They are nothing alike.~[BD59266]
+==Bdorn@352
 ==BVicon@353
 ==Bdorn@354
 ==BVicon@355
 ==Bdorn@356
-==BVicon~My race and circumstances isolate me. You isolate yourself. There is a price to be paid for that, errdegahr rothe.~[BD59271] EXIT
+==BVicon@357 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd069","LOCALS",-1)InParty("Neera") InParty("Viconia") ~ THEN  BNEERA_ BDBan069
@@ -587,9 +587,9 @@ DO~SetGlobal("bd_pbdd069","LOCALS",-1) ~
 ==BNEERA_@360
 ==BVicon@361
 ==BNEERA_@362
-==BVicon~Definitely not.~[BD59277]
-==BNEERA_~Peanut? Doll? Pinky?~[BD59278]
-==BVicon~Your antics do not amuse me, girl. Begone.~[BD59279]  EXIT
+==BVicon@363
+==BNEERA_@364
+==BVicon@365  EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd072","LOCALS",-1)InParty("Edwin") InParty("MKhiin")~ THEN  Bedwin_ BDBan072
@@ -599,7 +599,7 @@ DO~SetGlobal("bd_pbdd072","LOCALS",-1) ~
 ==Bedwin_@368
 ==BDMKHIIB@369
 ==Bedwin_@370
-==BDMKHIIB~Don't know. Don't care. Keep whining if you want. I'm done with you.~[BD59288] EXIT
+==BDMKHIIB@371 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd074","LOCALS",-1)InParty("Edwin") InParty("Jaheira")~ THEN  Bedwin_ BDBan074
@@ -609,7 +609,7 @@ DO~SetGlobal("bd_pbdd074","LOCALS",-1) ~
 ==Bedwin_@374
 ==BJahei@375
 ==Bedwin_@376
-==BJahei~I am glad to hear it.~[BD59294] EXIT
+==BJahei@377 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd076","LOCALS",-1)InParty("Edwin") InParty("Dorn")~ THEN  Bedwin_ BDBan076
@@ -633,7 +633,7 @@ DO~SetGlobal("bd_pbdd077","LOCALS",-1) ~
 ==Bedwin_@390
 =@391
 ==BNEERA_@392
-==Bedwin_~Jealous? JEALOUS? You know as little of me as you do magic. Go, leave me be. Your nattering makes my head ache.~[BD59308] EXIT
+==Bedwin_@393 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd087","LOCALS",-1)InParty("Jaheira") InParty("MKHiin")~ THEN  BDMKHIIB BDBan087
@@ -664,7 +664,7 @@ CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd099","LOCALS",-1)InParty("Neera") InParty("Jaheira") ~ THEN  BNEERA_ BDBan099
 @407
 DO~SetGlobal("bd_pbdd099","LOCALS",-1) ~
-==BJahei~What makes such strange thoughts flit through your head, child?~[BD59441] EXIT
+==BJahei@408 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd100","LOCALS",-1)InParty("VOGHILN") InParty("Jaheira")~ THEN  BDVOGHIB BDBan100
@@ -673,7 +673,7 @@ DO~SetGlobal("bd_pbdd100","LOCALS",-1)~
 ==BJahei@410
 ==BDVOGHIB@411
 ==BJahei@412
-==BDVOGHIB~Oh, he'd hit ME? Ja, this makes more sense.~[BD59448]  EXIT
+==BDVOGHIB@413  EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd101","LOCALS",-1)InParty("Khalid") InParty("Dorn")~ THEN  BKhali BDBan101
@@ -681,20 +681,20 @@ IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd101","LOCALS",-1)InP
 DO~SetGlobal("bd_pbdd101","LOCALS",-1) ~
 ==BDorn@415
 ==BKhali@416
-==BDorn~Better. Now, what do you plan to do about it? Fight me? Try to kill me? Or do we put our feelings aside and save our hostility for Caelar?~[BD59452]
+==BDorn@417
 ==BKhali@418
 ==BDorn@419
 ==BJahei IF~InParty("Jaheira")~THEN@420
 ==BKhali IF~InParty("Jaheira")~THEN@421
 ==BJahei IF~InParty("Jaheira")~THEN@422
-==BKhali IF~InParty("Jaheira")~THEN~Y-yes, dear. As you say.~[BD59458] EXIT
+==BKhali IF~InParty("Jaheira")~THEN@423 EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd102","LOCALS",-1)InParty("Khalid") InParty("Neera")~ THEN  BKhali BDBan102
 @424
 DO~SetGlobal("bd_pbdd102","LOCALS",-1) ~
-==BNEERA_~I'm fine, Khalid. I mean, I will be fine. You know, when this is all over.~[BD59460]
-==BKhali~ You're sure? You're not too t-t-tense? I mean, obviously we're all under stress, but you're not going to... you know.~[BD59461]
+==BNEERA_@425
+==BKhali@426
 ==BNEERA_@427
 ==BKhali@428
 ==BNEERA_@429
@@ -733,13 +733,13 @@ IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd105","LOCALS",-1)InP
 DO~SetGlobal("bd_pbdd105","LOCALS",-1)~
 ==BDorn@451
 ==BDVOGHIB@452
-==BDorn~The Nightmares' hands could shatter stone and their fangs were sharper than any dagger, or so the stories go.~[BD59486]
+==BDorn@453
 ==BDVOGHIB@454
 ==BDorn@455
 ==BDVOGHIB@456
 =@457
 =@458
-=~Oi. I need a drink...~[BD59492]  EXIT
+=@459  EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd106","LOCALS",-1)InParty("Neera") InParty("VOGHILN")~ THEN  BNEERA_ BDBan106
@@ -749,8 +749,8 @@ DO~SetGlobal("bd_pbdd106","LOCALS",-1) ~
 ==BNEERA_@462
 ==BDVOGHIB@463
 ==BNEERA_@464
-==BDVOGHIB~You think I was making a joke...? Well, maybe I was. Ja, ja. It was a joke. Good one, eh?~[BD59498]
-==BNEERA_~The best, Voghiln. The best. ~[BD59499]  EXIT
+==BDVOGHIB@465
+==BNEERA_@466  EXIT
 
 CHAIN
 IF WEIGHT #-4~Global("EndofBG1","Global",1) !Global("bd_pbdd110","LOCALS",-1)InParty("MKHiin") InParty("CVSandr")~ THEN  BDMKHIIB BDBan110
