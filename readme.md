@@ -29,6 +29,7 @@ Installation guidance:
 
 Install the mod after all other mods which add banters to the game, i.e. right before installing EET_end.
 <br>
+Best use https://github.com/EE-Mod-Setup/EE-Mod-Setup for installation. 
 &nbsp;</span></p>
 
 <p class=MsoNormal><span lang=EN-NZ>&nbsp;</span></p>
